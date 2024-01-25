@@ -30,9 +30,11 @@ header {
     box-shadow: 0 4px 10px #4c4b16;
 }
 
-h1 {
-    font-family: 'roboto-mono', sans-serif;
+header a {
+    text-decoration: none;
+    color: inherit;
 }
+
 
 /* Main Content */
 main {
