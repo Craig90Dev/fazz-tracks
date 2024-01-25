@@ -82,6 +82,11 @@ nav {
     font-size: 150%;
 }
 
+header  i {
+    font-size: 170%;
+    color: #e7b10a;
+}
+
 /* Main Content */
 main {
     background-color: blueviolet;
@@ -91,8 +96,22 @@ main {
 }
 
 /* Footer */
+
 footer {
-    background-color: bisque;
+    background-color: #4c4b16;
+}
+#social {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    list-style-type: none;
+}
+
+#social i {
+    font-size: 150%;
+    padding: 5%;
+    color: #e7b10a;
 }
 
 /* Media Query: Tablets and larger (768px+) */
