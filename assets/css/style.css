@@ -118,3 +118,13 @@ footer {
         display: none;
     }
 }
+
+/* Meadia query: Large devices (992pxs+) */
+@media screen and (min-width: 992px) {
+
+    #menu a:hover {
+        border-bottom: 2px solid #e7b10a;
+    }
+
+}
+    
