@@ -17,12 +17,16 @@ body {
     /* Generic Project Styles */
     color: black;
     font-family: 'poppins', sans-serif;
-    
+
 }
 
 /* Header */
 header {
     background-color: aquamarine;
+}
+
+h1 {
+    font-family: 'roboto-mono', sans-serif;
 }
 
 /* Main Content */
