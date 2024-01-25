@@ -1,11 +1,21 @@
+/* Asterisk wildscard selector to remove default settings set by browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
 header {
     background-color: aquamarine;
 }
 
+/* Main Content */
 main {
     background-color: blueviolet;
 }
 
+/* Footer */
 footer {
     background-color: bisque;
 }
