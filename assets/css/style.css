@@ -85,6 +85,7 @@ nav {
 /* Main Content */
 main {
     background-color: blueviolet;
+    margin-top: 97px;
     /* Make make content take up space to force footer to bottom of page */
     flex: 1 0 auto;
 }
