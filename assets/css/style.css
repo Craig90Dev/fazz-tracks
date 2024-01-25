@@ -94,3 +94,27 @@ main {
 footer {
     background-color: bisque;
 }
+
+/* Media Query: Tablets and larger (768px+) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+        font-size: 110%;
+    }
+
+    #menu > li {
+        padding-left: 3rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
