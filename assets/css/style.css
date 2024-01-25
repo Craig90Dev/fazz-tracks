@@ -23,18 +23,47 @@ body {
 /* Header */
 header {
     background-color: #4c4b16;
-    padding: 0 2rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 4px 10px #4c4b16;
 }
 
-header a {
-    text-decoration: none;
-    color: inherit;
+header img {
+    margin-top: 1rem;
 }
 
+header a {
+    text-decoration: none;
+    color: #f7f2cb;
+}
+
+#menu {
+    list-style-type: none;
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+#menu > li {
+    margin-bottom: 2px;
+}
+
+.active {
+    border-bottom: 2px solid #e7b10a;
+}
+
+/* Navbar styles with dropdown selector */
+nav {
+    position: absolute;
+    background-color: #4c4b16;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 4px 10px #4c4b16;
+    display: none;
+}
 
 /* Main Content */
 main {
