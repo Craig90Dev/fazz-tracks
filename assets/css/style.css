@@ -97,7 +97,7 @@ main {
 
 /* index.html hero image */
 #index-hero {
-    height: 600px;
+    height: 650px;
     width: 100%;
     background: url("../images/index-hero-image.jpg") no-repeat center center/cover;
 }
@@ -105,7 +105,9 @@ main {
 /* Footer */
 footer {
     background-color: #4c4b16;
+    box-shadow: 0 -4px 10px #4c4b16;
 }
+
 #social {
     text-align: center;
     display: flex;
