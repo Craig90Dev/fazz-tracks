@@ -97,7 +97,7 @@ main {
 
 /* index.html hero image */
 #index-hero {
-    height: 650px;
+    height: 100%;
     width: 100%;
     background: url("../images/index-hero-image.jpg") no-repeat center center/cover fixed;
 }
@@ -106,14 +106,15 @@ main {
     font-family: 'roboto-mono', sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
+    font-size: 120%;
     color: #e7b10a;
 }
 
 #index-hero > div {
     background-color: rgba(76, 75, 22, .9);
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    width: 80%;
+    margin: auto;
 }
 
 /* Footer */
