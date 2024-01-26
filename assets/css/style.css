@@ -89,14 +89,20 @@ header  i {
 
 /* Main Content */
 main {
-    background-color: blueviolet;
+    background-color: #f7f2cb;
     margin-top: 97px;
     /* Make make content take up space to force footer to bottom of page */
     flex: 1 0 auto;
 }
 
-/* Footer */
+/* index.html hero image */
+#index-hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/index-hero-image.jpg") no-repeat center center/cover;
+}
 
+/* Footer */
 footer {
     background-color: #4c4b16;
 }
