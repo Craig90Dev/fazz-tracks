@@ -15,9 +15,8 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic Project Styles */
-    color: black;
+    color: #f7f2cb;
     font-family: 'poppins', sans-serif;
-
 }
 
 /* Header */
@@ -89,6 +88,7 @@ header  i {
 
 /* Main Content */
 main {
+    /* Background color will show for tablet and desktop devices only*/
     background-color: #f7f2cb;
     margin-top: 97px;
     /* Make make content take up space to force footer to bottom of page */
@@ -99,7 +99,20 @@ main {
 #index-hero {
     height: 650px;
     width: 100%;
-    background: url("../images/index-hero-image.jpg") no-repeat center center/cover;
+    background: url("../images/index-hero-image.jpg") no-repeat center center/cover fixed;
+}
+
+#index-hero h1 {
+    font-family: 'roboto-mono', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #e7b10a;
+}
+
+#index-hero > div {
+    background-color: rgba(76, 75, 22, .9);
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* Footer */
