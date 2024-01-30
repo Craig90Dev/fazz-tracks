@@ -156,7 +156,7 @@ main {
     max-width: 300px;
     max-height: 300px;
     width: 80%;
-    margin: 40px auto;
+    margin: 40% auto;
     border-radius: 25px;
 }
 
@@ -169,14 +169,13 @@ main {
     max-width: 300px;
     max-height: 300px;
     width: 80%;
-    margin: 115px auto 40px;
+    margin: 40% auto;
     border-radius: 25px;
 }
 
 #offer-image-container,
 #expect-image-container {
     display: none;
-    
 }
 
 /* Footer */
