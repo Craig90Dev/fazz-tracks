@@ -104,11 +104,12 @@ main {
 }
 
 #index-content > div {
-    background-color: rgba(76, 75, 22, .6);
+    background-color: rgba(76, 75, 22, .8);
     text-align: center;
     width: 80%;
-    margin: auto;
+    margin: 40px auto;
     padding: 30px 10% 30px 10%;
+    border-radius: 25px;
 }
 
 /* Footer */
