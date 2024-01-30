@@ -24,10 +24,16 @@ body {
 .index {
     /* Image from: https://unsplash.com/photos/man-riding-on-motorcycle-in-forest-during-daytime-tmTVxOjdV8I */
     background: url("../images/background-index.jpg")no-repeat center center/cover fixed;
+    background-color: #f7f2cb;
 }
     /* Image from: https://unsplash.com/photos/man-riding-mountain-bike-on-hill-under-cloudy-skies-rNhbTQFEa-k */
 .services {
     background: url("../images/background-services.jpg")no-repeat center center/cover fixed;
+    background-color: #f7f2cb;
+}
+
+.gallery {
+    background-color: #f7f2cb;
 }
 
 /* Header */
@@ -116,7 +122,7 @@ main {
 }
 
 #index-content div,
-#services-content div {
+#services-content > div {
     background-color: rgba(76, 75, 22, .8);
     text-align: center;
     width: 80%;
@@ -139,6 +145,38 @@ main {
     width: 100%;
     padding: 10px 30px;
     margin: 10px auto;
+}
+
+#expect-image-bg {
+    /* Image from: https://unsplash.com/photos/man-riding-on-red-motocross-dirt-bike-DDkbkLLntt8 */
+    background: url('../images/expect-image.jpg')no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 25px;
+}
+
+#offer-image-bg {
+    /* Image from: https://unsplash.com/photos/person-riding-on-bicycle-olwtEqktvzY */
+    background: url('../images/offer-image.jpg')no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    width: 80%;
+    margin: 115px auto 40px;
+    border-radius: 25px;
+}
+
+#offer-image-container,
+#expect-image-container {
+    display: none;
+    
 }
 
 /* Footer */
@@ -210,6 +248,7 @@ footer {
     #hidden-review {
         display: none;
     }
+
 }
 
 /* Meadia query: Large devices (992pxs+) */
@@ -227,7 +266,7 @@ footer {
     }
 
     #index-content div,
-    #services-content div {
+    #services-content > div {
         margin: 100px 80px 20px;
         padding: 10px;
         max-width: 350px;
@@ -237,10 +276,15 @@ footer {
         display: initial;
     }
 
-    #services-content div {
+    #offer-image-container,
+    #expect-image-container {
+        display: initial;
+}
+    #services-content > div {
         margin: 100px 80px 20px;
         padding: 10px;
         max-width: 350px;
     }
 }
+  
     
