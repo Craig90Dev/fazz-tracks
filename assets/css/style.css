@@ -108,9 +108,7 @@ main {
     text-align: center;
     width: 80%;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding: 10%;
+    padding: 30px 10% 30px 10%;
 }
 
 /* Footer */
