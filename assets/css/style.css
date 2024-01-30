@@ -92,16 +92,10 @@ main {
     background-color: #f7f2cb;
     margin-top: 97px;
     margin-bottom: 68px;
-}
-
-/* index.html hero image */
-#index-hero {
-    height: 100%;
-    width: 100%;
     background: url("../images/index-hero-image.jpg") no-repeat center center/cover fixed;
 }
 
-#index-hero h1 {
+#index-content h1 {
     font-family: 'roboto-mono', sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -109,8 +103,8 @@ main {
     color: #e7b10a;
 }
 
-#index-hero > div {
-    background-color: rgba(76, 75, 22, .9);
+#index-content > div {
+    background-color: rgba(76, 75, 22, .6);
     text-align: center;
     width: 80%;
     margin: auto;
@@ -171,6 +165,10 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #index-hero {
+        background: url("../images/index-hero-image.jpg") no-repeat center center cover;
     }
 }
 
