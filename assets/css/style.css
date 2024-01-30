@@ -25,7 +25,7 @@ body {
     /* Image from: https://unsplash.com/photos/man-riding-on-motorcycle-in-forest-during-daytime-tmTVxOjdV8I */
     background: url("../images/background-index.jpg")no-repeat center center/cover fixed;
 }
-
+    /* Image from: https://unsplash.com/photos/man-riding-mountain-bike-on-hill-under-cloudy-skies-rNhbTQFEa-k */
 .services {
     background: url("../images/background-services.jpg")no-repeat center center/cover fixed;
 }
@@ -106,7 +106,8 @@ main {
     background: url("../images/background2.jpg")no-repeat center center/cover fixed;
 }
 
-#index-content h1 {
+#index-content h1,
+#services-content h1 {
     font-family: 'roboto-mono', sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -114,7 +115,8 @@ main {
     color: #e7b10a;
 }
 
-#index-content > div {
+#index-content div,
+#services-content div {
     background-color: rgba(76, 75, 22, .8);
     text-align: center;
     width: 80%;
