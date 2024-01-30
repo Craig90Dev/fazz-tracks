@@ -112,6 +112,22 @@ main {
     border-radius: 25px;
 }
 
+.review-text h2 {
+    font-family: 'roboto-mono', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 100%;
+    color: #e7b10a;
+}
+
+#review-content > div {
+    background-color: rgba(76, 75, 22, .7);
+    text-align: center;
+    width: 100%;
+    padding: 10px 30px;
+    margin: 10px auto;
+}
+
 /* Footer */
 footer {
     background-color: #4c4b16;
