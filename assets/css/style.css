@@ -92,7 +92,6 @@ main {
     background-color: #f7f2cb;
     margin-top: 97px;
     margin-bottom: 68px;
-    /* Make make content take up space to force footer to bottom of page */
 }
 
 /* index.html hero image */
@@ -115,6 +114,9 @@ main {
     text-align: center;
     width: 80%;
     margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 10%;
 }
 
 /* Footer */
@@ -139,6 +141,13 @@ footer {
     font-size: 150%;
     padding: 5%;
     color: #e7b10a;
+}
+
+#copyright {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 50%;
 }
 
 /* Media Query: Tablets and larger (768px+) */
