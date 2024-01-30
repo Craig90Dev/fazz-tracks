@@ -19,6 +19,12 @@ body {
     font-family: 'poppins', sans-serif;
 }
 
+/* Page Backgrounds */
+
+.index {
+    background: url("../images/background2.jpg")no-repeat center center/cover fixed;
+}
+
 /* Header */
 header {
     background-color: #4c4b16;
@@ -92,7 +98,7 @@ main {
     background-color: #f7f2cb;
     margin-top: 97px;
     margin-bottom: 68px;
-    background: url("../images/index-hero-image.jpg") no-repeat center center/cover fixed;
+    background: url("../images/background2.jpg")no-repeat center center/cover fixed;
 }
 
 #index-content h1 {
@@ -191,7 +197,7 @@ footer {
         margin: 20px auto;
         max-width: 300px;
         min-height: 200px;
-        
+        border-radius: 25px;
     }
 
     #hidden-review {
@@ -204,6 +210,22 @@ footer {
 
  #menu a:hover {
         border-bottom: 2px solid #e7b10a;
+    }
+
+    #index-content {
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+
+    #index-content div {
+        margin: 100px 80px 20px;
+        padding: 10px;
+        max-width: 350px;
+    }
+
+    #hidden-review {
+        display: initial;
     }
 }
     
