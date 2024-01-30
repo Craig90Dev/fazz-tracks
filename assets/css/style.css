@@ -313,11 +313,6 @@ footer {
         padding: 10px;
         max-width: 350px;
     }
-
-    /* Gallery Page */
-    #photos {
-        column-count: 3;
-    }
 }
   
     
