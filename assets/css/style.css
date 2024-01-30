@@ -219,13 +219,15 @@ footer {
         border-bottom: 2px solid #e7b10a;
     }
 
-    #index-content {
+    #index-content,
+    #services-content {
         display: flex;
         position: relative;
         justify-content: center;
     }
 
-    #index-content div {
+    #index-content div,
+    #services-content div {
         margin: 100px 80px 20px;
         padding: 10px;
         max-width: 350px;
