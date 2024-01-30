@@ -181,6 +181,22 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    #review-content {
+        display: flex;
+        position: relative;
+    }
+
+    #review-content div {
+        margin: 20px auto;
+        max-width: 300px;
+        min-height: 200px;
+        
+    }
+
+    #hidden-review {
+        display: none;
+    }
 }
 
 /* Meadia query: Large devices (992pxs+) */
