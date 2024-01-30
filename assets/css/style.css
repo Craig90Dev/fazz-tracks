@@ -171,7 +171,7 @@ footer {
 
     #menu {
         display: flex;
-        font-size: 110%;
+        font-size: 160%;
     }
 
     #menu > li {
@@ -181,18 +181,13 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-
-    #index-hero {
-        background: url("../images/index-hero-image.jpg") no-repeat center center cover;
-    }
 }
 
 /* Meadia query: Large devices (992pxs+) */
 @media screen and (min-width: 992px) {
 
-    #menu a:hover {
+ #menu a:hover {
         border-bottom: 2px solid #e7b10a;
     }
-
 }
     
