@@ -23,7 +23,11 @@ body {
 
 .index {
     /* Image from: https://unsplash.com/photos/man-riding-on-motorcycle-in-forest-during-daytime-tmTVxOjdV8I */
-    background: url("../images/background2-min.jpg")no-repeat center center/cover fixed;
+    background: url("../images/background-index.jpg")no-repeat center center/cover fixed;
+}
+
+.services {
+    background: url("../images/background-services.jpg")no-repeat center center/cover fixed;
 }
 
 /* Header */
