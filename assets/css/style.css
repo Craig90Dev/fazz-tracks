@@ -223,6 +223,14 @@ footer {
     font-size: 50%;
 }
 
+/* Media Query: Large and landscape phones (576px+)*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media Query: Tablets and larger (768px+) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -263,6 +271,11 @@ footer {
         display: none;
     }
 
+    /* Gallery Page */
+    #photos {
+        column-count: 3;
+    }
+
 }
 
 /* Meadia query: Large devices (992pxs+) */
@@ -299,6 +312,11 @@ footer {
         margin: 100px 80px 20px;
         padding: 10px;
         max-width: 350px;
+    }
+
+    /* Gallery Page */
+    #photos {
+        column-count: 3;
     }
 }
   
