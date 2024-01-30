@@ -112,6 +112,7 @@ main {
     background: url("../images/background2.jpg")no-repeat center center/cover fixed;
 }
 
+/* index Page */
 #index-content h1,
 #services-content h1 {
     font-family: 'roboto-mono', sans-serif;
@@ -147,6 +148,7 @@ main {
     margin: 10px auto;
 }
 
+/* Services Page */
 #expect-image-bg {
     /* Image from: https://unsplash.com/photos/man-riding-on-red-motocross-dirt-bike-DDkbkLLntt8 */
     background: url('../images/expect-image.jpg')no-repeat top center / cover;
@@ -173,9 +175,21 @@ main {
     border-radius: 25px;
 }
 
+/* Hidden images for index page */
 #offer-image-container,
 #expect-image-container {
     display: none;
+}
+
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    /* Line height so alt text can be readable when needed (Otherwise hard to see due to line height set to 0 for #photos)*/
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* Footer */
@@ -244,6 +258,7 @@ footer {
         border-radius: 25px;
     }
 
+    /* Hidden review for Tablet screens*/
     #hidden-review {
         display: none;
     }
@@ -271,6 +286,7 @@ footer {
         max-width: 350px;
     }
 
+    /* Allowing hidden review and images to be seen for larger screen */
     #hidden-review {
         display: initial;
     }
