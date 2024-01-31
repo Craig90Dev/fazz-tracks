@@ -242,6 +242,10 @@ main {
     border-color:#f7f2cb;
 }
 
+option {
+    color: #000000;
+}
+
 /* Footer */
 footer {
     background-color: #4c4b16;
