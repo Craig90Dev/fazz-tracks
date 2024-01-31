@@ -181,7 +181,7 @@ main {
     border-radius: 25px;
 }
 
-/* Hidden images for index page */
+/* Hidden images for services page */
 #offer-image-container,
 #expect-image-container {
     display: none;
@@ -200,6 +200,14 @@ main {
 
 /* Form Page */
 /* Booking Form */
+#first-booking-image {
+    /* Image from: https://www.pexels.com/photo/landscape-sport-bike-bicycle-2248713/ */
+    background: url('../images/background-booking.jpg')no-repeat top center / cover;
+    height: 500px;
+    width: 500px;
+    border-radius: 25px;
+}
+
 #booking-form {
     background-color: rgba(76, 75, 22, .7);
     color: #f7f2cb;
@@ -246,6 +254,19 @@ option {
     color: #000000;
 }
 
+#second-booking-image {
+    /* Image from: https://www.pexels.com/photo/mountain-biking-on-enduro-bicycle-in-the-forest-8926946/ */
+    background: url('../images/booking-image2.jpg')no-repeat top center / cover;
+    height: 500px;
+    width: 500px;
+    border-radius: 25px;
+}
+
+/* Hidden image for booking page */
+#first-booking-image-container,
+#second-booking-image-container {
+    display: none;
+}
 /* Footer */
 footer {
     background-color: #4c4b16;
@@ -307,6 +328,7 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
     /* index page */
     #review-content {
         display: flex;
@@ -330,6 +352,39 @@ footer {
         column-count: 3;
     }
 
+    /* Booking Page */
+    .booking {
+        background: #f7f2cb;
+    }
+
+    .form-page-divs {
+        align-self: center;
+    }
+
+    #booking {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    /* Hidden image for Tablet screens*/
+    #first-booking-image-container {
+        display: initial;    
+    }
+
+    #booking-form-container {
+        min-width: 400px;
+        max-width: 400px;
+        margin-top: 40px;
+    }
+
+    #first-booking-image {
+        width: 300px;
+    }
+
+    #booking-form {
+        border-radius: 25px;
+    }
 }
 
 /* Meadia query: Large devices (992pxs+) */
@@ -353,6 +408,7 @@ footer {
         max-width: 350px;
     }
 
+    
     /* Allowing hidden review and images to be seen for larger screen */
     #hidden-review {
         display: initial;
@@ -361,12 +417,14 @@ footer {
     #offer-image-container,
     #expect-image-container {
         display: initial;
-}
+    }
     #services-content > div {
         margin: 100px 80px 20px;
         padding: 10px;
         max-width: 350px;
     }
+
+ 
 }
   
     
