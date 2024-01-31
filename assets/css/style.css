@@ -216,15 +216,14 @@ section > h2 {
 	justify-content: space-between;
 	width: 100%;
 }
-.book-button {
-	margin-top: 10px;
+.button {
 	border-radius: 5px;
-	padding: 10px 20px;
+	padding: 5px 10px;
 	font-size: 100%;
 	font-weight: bold;
 	background-color: #e7b10a;
 	color: #000000;
-	border-color:#f7f2cb;
+	text-decoration: none;
 }
 option {
 	color: #000000;
