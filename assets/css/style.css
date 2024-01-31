@@ -12,8 +12,11 @@ body {
 	display: flex;
 	flex-direction: column;
 	/* Generic Project Styles */
-	color: #000000;
+	color: #f7f2cb;
 	font-family: 'poppins', sans-serif;
+}
+img {
+    color: #000000;
 }
 /* Page Backgrounds */
 .index {
