@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic Project Styles */
-    color: #f7f2cb;
+    color: #000000;
     font-family: 'poppins', sans-serif;
 }
 
@@ -185,7 +185,7 @@ main {
 #photos img {
     width: 100%;
     /* Line height so alt text can be readable when needed (Otherwise hard to see due to line height set to 0 for #photos)*/
-    line-height: 1em;
+    line-height: 2em;
 }
 
 #photos {
