@@ -19,7 +19,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="booking" title="Man holding bike looking at sunrise">
     <!-- Header -->
     <header>
     <!-- img from https://app.logo.com/ -->
@@ -51,11 +51,11 @@
                 <label for="email">Email Address::</label>
                 <input type="email" name="email" id="email" class="text-input" required>
                 <label for="phone">Contact Number:</label>
-                <input type="number" name="phone" id="phone" class="text-input" required>
+                <input type="text" name="phone" id="phone" class="text-input" required>
                 <label for="party-number">Number of Party Members:</label>
-                <input type="select" name="party-number" id="party-number">
+                <input type="select" name="party-number" id="party-number" class="text-input" required>
                 <label for="radio-buttons">Age of Party Leader:</label>
-                <div class="radio-buttons">
+                <div class="radio-buttons text-input">
                     <div>
                         <label for="18-24">18-24</label>
                         <input type="radio" name="party-leader" id="18-24" value="18-24" checked required>
@@ -73,7 +73,8 @@
                         <input type="radio" name="party-leader" id="45-plus" value="45+" required>
                     </div>
                 </div>
-                <input type="date" name="date" id="date">
+                <label for="date">Date of Arrival:</label>
+                <input type="date" name="date" id="date" class="text-input" required>
                 <button type="submit" class="book-button">Book Now!</button>
             </form>
         </section>
