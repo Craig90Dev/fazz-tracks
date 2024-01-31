@@ -142,26 +142,16 @@ section > h2 {
 }
 /* Services Page */
 #expect-image-bg {
-	/* Image from: https://unsplash.com/photos/man-riding-on-red-motocross-dirt-bike-DDkbkLLntt8 */
-	background: url('../images/expect-image.jpg')no-repeat top center / cover;
-	height: 90vw;
-	width: 90vw;
 	margin-bottom: 20px;
 	max-width: 300px;
 	max-height: 300px;
-	width: 80%;
 	margin: 40% auto;
 	border-radius: 25px;
 }
 #offer-image-bg {
-	/* Image from: https://unsplash.com/photos/person-riding-on-bicycle-olwtEqktvzY */
-	background: url('../images/offer-image.jpg')no-repeat top center / cover;
-	height: 90vw;
-	width: 90vw;
 	margin-bottom: 20px;
 	max-width: 300px;
 	max-height: 300px;
-	width: 80%;
 	margin: 40% auto;
 	border-radius: 25px;
 }
@@ -345,7 +335,8 @@ footer {
 		margin-top: 40px;
 	}
 	#first-booking-image {
-		width: 300px;
+		max-width: 400px;
+		max-height: 400px;
 	}
 	#booking-form {
 		border-radius: 25px;
@@ -391,7 +382,8 @@ footer {
 		order: 2;
 	}
 	#second-booking-image {
-		width: 300px;
+		max-width: 300px;
+		max-height: 400px;
 	}
 	#first-booking-image-container {
 		order: 3;
