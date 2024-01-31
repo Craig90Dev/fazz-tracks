@@ -320,7 +320,7 @@ footer {
 		display: flex;
 		flex-direction: row;
 		gap: 20px;
-		justify-content: center;
+		justify-content: space-evenly;
 	}
 	/* Hidden image for Tablet screens*/
 	#first-booking-image-container {
