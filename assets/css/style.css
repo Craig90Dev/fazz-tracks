@@ -363,6 +363,7 @@ footer {
 
     #booking {
         display: flex;
+        flex-direction: row;
         gap: 20px;
         justify-content: center;
     }
@@ -424,7 +425,28 @@ footer {
         max-width: 350px;
     }
 
- 
+    /* Booking Page*/
+    #second-booking-image-container {
+        display: initial;
+    }
+
+    #booking-form-container {
+        margin-top: -15px;
+        order: 2;
+    }
+
+    #second-booking-image {
+        width: 300px;
+    }
+
+    #first-booking-image-container {
+        order: 3;
+    }
+
+    #second-booking-image-container {
+        order: 1;
+    }
+
 }
   
     
