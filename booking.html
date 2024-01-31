@@ -51,7 +51,8 @@
                 <label for="email">Email Address::</label>
                 <input type="email" name="email" id="email" class="text-input" required>
                 <label for="phone">Contact Number:</label>
-                <input type="text" name="phone" id="phone" class="text-input" required>
+                <!-- JS snippet taken from: https://stackoverflow.com/questions/17999067/how-to-force-only-numbers-in-a-input-without-javascript to force the text input to be number only -->
+                <input oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')" type="text" name="phone" id="phone" class="text-input" required>
                 <label for="party-number">Number of Party Members:</label>
                 <input type="select" name="party-number" id="party-number" class="text-input" required>
                 <label for="radio-buttons">Age of Party Leader:</label>
