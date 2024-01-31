@@ -99,10 +99,8 @@ header i {
 /* Main Content */
 main {
 	/* Background color will show for tablet and desktop devices only*/
-	background-color: #f7f2cb;
 	margin-top: 97px;
 	margin-bottom: 68px;
-	background: url("../images/background2.jpg")no-repeat center center/cover fixed;
 }
 /* Hidden headers to comply with html validation */
 section > h2 {
