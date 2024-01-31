@@ -1,452 +1,382 @@
 /*Google Fonts import (Poppins & Roboto Mono)*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-
 /* Asterisk wildscard selector to remove default settings set by browser */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-
 /* General Styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic Project Styles */
-    color: #000000;
-    font-family: 'poppins', sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	/* Generic Project Styles */
+	color: #000000;
+	font-family: 'poppins', sans-serif;
 }
-
 /* Page Backgrounds */
-
 .index {
-    /* Image from: https://unsplash.com/photos/man-riding-on-motorcycle-in-forest-during-daytime-tmTVxOjdV8I */
-    background: url("../images/background-index.jpg")no-repeat center center/cover fixed;
-    background-color: #f7f2cb;
+	/* Image from: https://unsplash.com/photos/man-riding-on-motorcycle-in-forest-during-daytime-tmTVxOjdV8I */
+	background: url("../images/background-index.jpg")no-repeat center center/cover fixed;
+	background-color: #f7f2cb;
 }
-    /* Image from: https://unsplash.com/photos/man-riding-mountain-bike-on-hill-under-cloudy-skies-rNhbTQFEa-k */
+/* Image from: https://unsplash.com/photos/man-riding-mountain-bike-on-hill-under-cloudy-skies-rNhbTQFEa-k */
 .services {
-    background: url("../images/background-services.jpg")no-repeat center center/cover fixed;
-    background-color: #f7f2cb;
+	background: url("../images/background-services.jpg")no-repeat center center/cover fixed;
+	background-color: #f7f2cb;
 }
-
 .gallery {
-    background-color: #f7f2cb;
+	background-color: #f7f2cb;
 }
-
 .booking {
-    /* Image from: https://www.pexels.com/photo/landscape-sport-bike-bicycle-2248713/ */
-    background: url("../images/background-booking.jpg")no-repeat center center/cover fixed;
-    background-color: #f7f2cb;
+	/* Image from: https://www.pexels.com/photo/landscape-sport-bike-bicycle-2248713/ */
+	background: url("../images/background-booking.jpg")no-repeat center center/cover fixed;
+	background-color: #f7f2cb;
 }
-
 /* Header */
 header {
-    background-color: #4c4b16;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 4px 10px #4c4b16;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+	background-color: #4c4b16;
+	padding: 0 1rem;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	box-shadow: 0 4px 10px #4c4b16;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
-
 header img {
-    margin-top: 1rem;
+	margin-top: 1rem;
 }
-
 header a {
-    text-decoration: none;
-    color: #f7f2cb;
+	text-decoration: none;
+	color: #f7f2cb;
 }
-
 #menu {
-    list-style-type: none;
-    font-size: 150%;
-    letter-spacing: 2px;
+	list-style-type: none;
+	font-size: 150%;
+	letter-spacing: 2px;
 }
-
 #menu > li {
-    margin-bottom: 2px;
+	margin-bottom: 2px;
 }
-
 .active {
-    border-bottom: 2px solid #e7b10a;
+	border-bottom: 2px solid #e7b10a;
 }
-
 /* Navbar styles with dropdown selector */
 nav {
-    position: absolute;
-    background-color: #4c4b16;
-    width: 100%;
-    text-align: center;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 4px 10px #4c4b16;
-    display: none;
-    top: 100%;
+	position: absolute;
+	background-color: #4c4b16;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	padding: 0 1rem;
+	box-shadow: 0 4px 10px #4c4b16;
+	display: none;
+	top: 100%;
 }
-
 /* Nav Toggle */
 #nav-toggle:checked~nav {
-    display: block;
+	display: block;
 }
-
 #nav-toggle {
-    display: none;
+	display: none;
 }
-
 .nav-toggle-label {
-    font-size: 150%;
+	font-size: 150%;
 }
-
-header  i {
-    font-size: 170%;
-    color: #e7b10a;
+header i {
+	font-size: 170%;
+	color: #e7b10a;
 }
-
 /* Main Content */
 main {
-    /* Background color will show for tablet and desktop devices only*/
-    background-color: #f7f2cb;
-    margin-top: 97px;
-    margin-bottom: 68px;
-    background: url("../images/background2.jpg")no-repeat center center/cover fixed;
+	/* Background color will show for tablet and desktop devices only*/
+	background-color: #f7f2cb;
+	margin-top: 97px;
+	margin-bottom: 68px;
+	background: url("../images/background2.jpg")no-repeat center center/cover fixed;
 }
-
+/* Hidden headers to comply with html validation */
+section > h2 {
+	display: none;
+}
+/* Hidden input to overcome html validation issue (Label cannot be for a div)*/
+.hidden-input {
+	display: none;
+}
 /* index Page */
-#index-content h1,
-#services-content h1 {
-    font-family: 'roboto-mono', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    font-size: 140%;
-    color: #e7b10a;
+#index-content h1,#services-content h1 {
+	font-family: 'roboto-mono', sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	font-size: 140%;
+	color: #e7b10a;
 }
-
-#index-content div,
-#services-content > div {
-    background-color: rgba(76, 75, 22, .8);
-    text-align: center;
-    width: 80%;
-    margin: 40px auto;
-    padding: 30px 10% 30px 10%;
-    border-radius: 25px;
+#index-content div,#services-content > div {
+	background-color: rgba(76, 75, 22, .8);
+	text-align: center;
+	width: 80%;
+	margin: 40px auto;
+	padding: 30px 10% 30px 10%;
+	border-radius: 25px;
 }
-
 .review-text h2 {
-    font-family: 'roboto-mono', sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    font-size: 100%;
-    color: #e7b10a;
+	font-family: 'roboto-mono', sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	font-size: 100%;
+	color: #e7b10a;
 }
-
 #review-content > div {
-    background-color: rgba(76, 75, 22, .7);
-    text-align: center;
-    width: 100%;
-    padding: 10px 30px;
-    margin: 10px auto;
+	background-color: rgba(76, 75, 22, .7);
+	text-align: center;
+	width: 100%;
+	padding: 10px 30px;
+	margin: 10px auto;
 }
-
 /* Services Page */
 #expect-image-bg {
-    /* Image from: https://unsplash.com/photos/man-riding-on-red-motocross-dirt-bike-DDkbkLLntt8 */
-    background: url('../images/expect-image.jpg')no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    max-width: 300px;
-    max-height: 300px;
-    width: 80%;
-    margin: 40% auto;
-    border-radius: 25px;
+	/* Image from: https://unsplash.com/photos/man-riding-on-red-motocross-dirt-bike-DDkbkLLntt8 */
+	background: url('../images/expect-image.jpg')no-repeat top center / cover;
+	height: 90vw;
+	width: 90vw;
+	margin-bottom: 20px;
+	max-width: 300px;
+	max-height: 300px;
+	width: 80%;
+	margin: 40% auto;
+	border-radius: 25px;
 }
-
 #offer-image-bg {
-    /* Image from: https://unsplash.com/photos/person-riding-on-bicycle-olwtEqktvzY */
-    background: url('../images/offer-image.jpg')no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    max-width: 300px;
-    max-height: 300px;
-    width: 80%;
-    margin: 40% auto;
-    border-radius: 25px;
+	/* Image from: https://unsplash.com/photos/person-riding-on-bicycle-olwtEqktvzY */
+	background: url('../images/offer-image.jpg')no-repeat top center / cover;
+	height: 90vw;
+	width: 90vw;
+	margin-bottom: 20px;
+	max-width: 300px;
+	max-height: 300px;
+	width: 80%;
+	margin: 40% auto;
+	border-radius: 25px;
 }
-
 /* Hidden images for services page */
-#offer-image-container,
-#expect-image-container {
-    display: none;
+#offer-image-container,#expect-image-container {
+	display: none;
 }
-
 /* Gallery Page */
 #photos img {
-    width: 100%;
-    /* Line height so alt text can be readable when needed (Otherwise hard to see due to line height set to 0 for #photos)*/
-    line-height: 2em;
+	width: 100%;
+	/* Line height so alt text can be readable when needed (Otherwise hard to see due to line height set to 0 for #photos)*/
+	line-height: 2em;
 }
-
 #photos {
-    line-height: 0;
+	line-height: 0;
 }
-
 /* Form Page */
 /* Booking Form */
 #first-booking-image {
-    /* Image from: https://www.pexels.com/photo/landscape-sport-bike-bicycle-2248713/ */
-    background: url('../images/background-booking.jpg')no-repeat top center / cover;
-    height: 500px;
-    width: 500px;
-    border-radius: 25px;
+	/* Image from: https://www.pexels.com/photo/landscape-sport-bike-bicycle-2248713/ */
+	background: url('../images/background-booking.jpg')no-repeat top center / cover;
+	height: 500px;
+	width: 500px;
+	border-radius: 25px;
 }
-
 #booking-form {
-    background-color: rgba(76, 75, 22, .7);
-    color: #f7f2cb;
-    padding: 30px;
-    margin: 10% 10%;
+	background-color: rgba(76, 75, 22, .7);
+	color: #f7f2cb;
+	padding: 30px;
+	margin: 10% 10%;
 }
-
 #booking-form > h2 {
-    text-transform: capitalize;
-    font-size: 140%;
-    color: #e7b10a;
-    text-align: center;
-    margin-bottom: 20px;
+	text-transform: capitalize;
+	font-size: 140%;
+	color: #e7b10a;
+	text-align: center;
+	margin-bottom: 20px;
 }
-
 .text-input {
-    background: transparent;
-    color: #f7f2cb;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 10px 0;
-    border-radius: 2px;
-    padding: 0 5px;
+	background: transparent;
+	color: #f7f2cb;
+	width: 100%;
+	height: 25px;
+	margin: 5px 0 10px 0;
+	border-radius: 2px;
+	padding: 0 5px;
 }
-
 .radio-buttons {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }
-
 .book-button {
-    margin-top: 10px;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 100%;
-    font-weight: bold;
-    background-color: #e7b10a;
-    color: #000000;
-    border-color:#f7f2cb;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 100%;
+	font-weight: bold;
+	background-color: #e7b10a;
+	color: #000000;
+	border-color:#f7f2cb;
 }
-
 option {
-    color: #000000;
+	color: #000000;
 }
-
 #second-booking-image {
-    /* Image from: https://www.pexels.com/photo/mountain-biking-on-enduro-bicycle-in-the-forest-8926946/ */
-    background: url('../images/booking-image2.jpg')no-repeat top center / cover;
-    height: 500px;
-    width: 500px;
-    border-radius: 25px;
+	/* Image from: https://www.pexels.com/photo/mountain-biking-on-enduro-bicycle-in-the-forest-8926946/ */
+	background: url('../images/booking-image2.jpg')no-repeat top center / cover;
+	height: 500px;
+	width: 500px;
+	border-radius: 25px;
 }
-
 /* Hidden image for booking page */
-#first-booking-image-container,
-#second-booking-image-container {
-    display: none;
+#first-booking-image-container,#second-booking-image-container {
+	display: none;
 }
 /* Footer */
 footer {
-    background-color: #4c4b16;
-    box-shadow: 0 -4px 10px #4c4b16;
-    width: 100%;
-    bottom: 0;
-    position: fixed;
-    margin-bottom: 0px;
+	background-color: #4c4b16;
+	box-shadow: 0 -4px 10px #4c4b16;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	margin-bottom: 0px;
 }
-
 #social {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 0;
-    list-style-type: none;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px 0;
+	list-style-type: none;
 }
-
 #social i {
-    font-size: 150%;
-    padding: 5%;
-    color: #e7b10a;
+	font-size: 150%;
+	padding: 5%;
+	color: #e7b10a;
 }
-
 #copyright {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    font-size: 50%;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-size: 50%;
 }
-
 /* Media Query: Large and landscape phones (576px+)*/
 @media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
+	#photos {
+		column-count: 2;
+		column-gap: 0;
+	}
 }
-
 /* Media Query: Tablets and larger (768px+) */
 @media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
-        display: flex;
-        font-size: 160%;
-    }
-
-    #menu > li {
-        padding-left: 3rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    /* index page */
-    #review-content {
-        display: flex;
-        position: relative;
-    }
-
-    #review-content div {
-        margin: 20px auto;
-        max-width: 300px;
-        min-height: 200px;
-        border-radius: 25px;
-    }
-
-    /* Hidden review for Tablet screens*/
-    #hidden-review {
-        display: none;
-    }
-
-    /* Gallery Page */
-    #photos {
-        column-count: 3;
-    }
-
-    /* Booking Page */
-    .booking {
-        background: #f7f2cb;
-    }
-
-    .form-page-divs {
-        align-self: center;
-    }
-
-    #booking {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        justify-content: center;
-    }
-
-    /* Hidden image for Tablet screens*/
-    #first-booking-image-container {
-        display: initial;    
-    }
-
-    #booking-form-container {
-        min-width: 400px;
-        max-width: 400px;
-        margin-top: 40px;
-    }
-
-    #first-booking-image {
-        width: 300px;
-    }
-
-    #booking-form {
-        border-radius: 25px;
-    }
+	/* Header */
+	nav {
+		display: block;
+		position: relative;
+		width: fit-content;
+		padding-right: 1rem;
+	}
+	#menu {
+		display: flex;
+		font-size: 160%;
+	}
+	#menu > li {
+		padding-left: 3rem;
+	}
+	.nav-toggle-label {
+		display: none;
+	}
+	/* index page */
+	#review-content {
+		display: flex;
+		position: relative;
+	}
+	#review-content div {
+		margin: 20px auto;
+		max-width: 300px;
+		min-height: 200px;
+		border-radius: 25px;
+	}
+	/* Hidden review for Tablet screens*/
+	#hidden-review {
+		display: none;
+	}
+	/* Gallery Page */
+	#photos {
+		column-count: 3;
+	}
+	/* Booking Page */
+	.booking {
+		background: #f7f2cb;
+	}
+	.form-page-divs {
+		align-self: center;
+	}
+	#booking {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		justify-content: center;
+	}
+	/* Hidden image for Tablet screens*/
+	#first-booking-image-container {
+		display: initial;
+	}
+	#booking-form-container {
+		min-width: 400px;
+		max-width: 400px;
+		margin-top: 40px;
+	}
+	#first-booking-image {
+		width: 300px;
+	}
+	#booking-form {
+		border-radius: 25px;
+	}
 }
-
 /* Meadia query: Large devices (992pxs+) */
 @media screen and (min-width: 992px) {
-
- #menu a:hover {
-        border-bottom: 2px solid #e7b10a;
-    }
-
-    #index-content,
-    #services-content {
-        display: flex;
-        position: relative;
-        justify-content: center;
-    }
-
-    #index-content div,
-    #services-content > div {
-        margin: 100px 80px 20px;
-        padding: 10px;
-        max-width: 350px;
-    }
-
-    
-    /* Allowing hidden review and images to be seen for larger screen */
-    #hidden-review {
-        display: initial;
-    }
-
-    #offer-image-container,
-    #expect-image-container {
-        display: initial;
-    }
-    #services-content > div {
-        margin: 100px 80px 20px;
-        padding: 10px;
-        max-width: 350px;
-    }
-
-    /* Booking Page*/
-    #second-booking-image-container {
-        display: initial;
-    }
-
-    #booking-form-container {
-        margin-top: -15px;
-        order: 2;
-    }
-
-    #second-booking-image {
-        width: 300px;
-    }
-
-    #first-booking-image-container {
-        order: 3;
-    }
-
-    #second-booking-image-container {
-        order: 1;
-    }
-
+	#menu a:hover {
+		border-bottom: 2px solid #e7b10a;
+	}
+	#index-content,#services-content {
+		display: flex;
+		position: relative;
+		justify-content: center;
+	}
+	#index-content div,#services-content > div {
+		margin: 100px 80px 20px;
+		padding: 10px;
+		max-width: 350px;
+	}
+	/* Allowing hidden review and images to be seen for larger screen */
+	#hidden-review {
+		display: initial;
+	}
+	#offer-image-container,#expect-image-container {
+		display: initial;
+	}
+	#services-content > div {
+		margin: 100px 80px 20px;
+		padding: 10px;
+		max-width: 350px;
+	}
+	/* Booking Page*/
+	#second-booking-image-container {
+		display: initial;
+	}
+	#booking-form-container {
+		margin-top: -15px;
+		order: 2;
+	}
+	#second-booking-image {
+		width: 300px;
+	}
+	#first-booking-image-container {
+		order: 3;
+	}
+	#second-booking-image-container {
+		order: 1;
+	}
 }
-  
-    

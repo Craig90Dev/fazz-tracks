@@ -23,12 +23,11 @@
     <!-- Header -->
     <header>
     <!-- img from https://app.logo.com/ -->
-        <a href="index.html"><img src="assets/images/logo-no-background.png" alt="FazzTracks Logo" height="75px" width="120px"></a>      
+        <a href="index.html"><img src="assets/images/logo-no-background.png" alt="FazzTracks Logo" height="75" width="120"></a>      
 
         <!-- Nav bar toggle -->
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-grip-lines"></i></label>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
@@ -55,7 +54,7 @@
                     <!-- JS snippet taken from: https://stackoverflow.com/questions/17999067/how-to-force-only-numbers-in-a-input-without-javascript to force the text input to be number only -->
                     <input oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')" type="text" name="phone" id="phone" class="text-input" required>
                     <label for="party-number">Number of Party Members:</label>
-                    <select name="party-number" id="party-number" class="text-input" required>
+                    <select name="party-number" id="party-number" class="text-input">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -63,6 +62,7 @@
                         <option value="5+">5+</option>
                     </select>
                     <label for="radio-buttons">Age of Party Leader:</label>
+                    <input type="text" id="radio-buttons" class="hidden-input">                    
                     <div class="radio-buttons text-input">
                         <div>
                             <label for="18-24">18-24</label>
@@ -84,16 +84,15 @@
                     <label for="date">Date of Arrival:</label>
                     <input type="date" name="date" id="date" class="text-input" required>
                     <button type="submit" class="book-button">Book Now!</button>
-                </form>
+                    </form>
             </div>
             <div id="first-booking-image-container" class="form-page-divs">
-                    <div id="first-booking-image"></div>
-                </div>
+                <div id="first-booking-image"></div>
+            </div>
             <div id="second-booking-image-container" class="form-page-divs"> 
                 <div id="second-booking-image"></div> 
             </div>
         </section>
-        
     </main>
     <!-- Footer -->
     <footer>
