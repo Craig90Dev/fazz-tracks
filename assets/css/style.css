@@ -309,6 +309,9 @@ footer {
 	#photos {
 		column-count: 3;
 	}
+    #gallery {
+        padding: 20% 5%;
+    }
 	/* Booking Page */
 	.booking {
 		background: #f7f2cb;
