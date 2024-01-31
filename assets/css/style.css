@@ -192,6 +192,10 @@ main {
     line-height: 0;
 }
 
+/* Form Page */
+
+/* Booking Form */
+
 /* Footer */
 footer {
     background-color: #4c4b16;
@@ -253,7 +257,7 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-
+    /* index page */
     #review-content {
         display: flex;
         position: relative;

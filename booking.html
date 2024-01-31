@@ -39,7 +39,45 @@
         </nav>
     </header>
     <!--Main -->
-    <main>Main Content</main>
+    <main>
+        <!-- Booking Form -->
+        <section id="booking">
+            <form id="booking-form" method="post" action="BLANK"><!-- FILL THIS IN !!!!!!!! -->
+                <h2>Book your next session at FazzTracks here!</h2>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" class="text-input" required>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname" class="text-input" required>
+                <label for="email">Email Address::</label>
+                <input type="email" name="email" id="email" class="text-input" required>
+                <label for="phone">Contact Number:</label>
+                <input type="number" name="phone" id="phone" class="text-input" required>
+                <label for="party-number">Number of Party Members:</label>
+                <input type="select" name="party-number" id="party-number">
+                <label for="radio-buttons">Age of Party Leader:</label>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="18-24">18-24</label>
+                        <input type="radio" name="party-leader" id="18-24" value="18-24" checked required>
+                    </div>
+                    <div>
+                        <label for="25-34">25-34</label>
+                        <input type="radio" name="party-leader" id="25-34" value="25-34" required>
+                    </div>
+                    <div>
+                        <label for="35-44">35-44</label>
+                        <input type="radio" name="party-leader" id="35-44" value="35-44" required>
+                    </div>
+                    <div>
+                        <label for="45-plus">45+</label>
+                        <input type="radio" name="party-leader" id="45-plus" value="45+" required>
+                    </div>
+                </div>
+                <input type="date" name="date" id="date">
+                <button type="submit" class="book-button">Book Now!</button>
+            </form>
+        </section>
+    </main>
     <!-- Footer -->
     <footer>
         <ul id="social">
