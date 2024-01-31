@@ -111,14 +111,16 @@ section > h2 {
 	display: none;
 }
 /* index Page */
-#index-content h1,#services-content h1 {
+#index-content h1,
+#services-content h1 {
 	font-family: 'roboto-mono', sans-serif;
 	text-transform: capitalize;
 	letter-spacing: 1px;
 	font-size: 140%;
 	color: #e7b10a;
 }
-#index-content div,#services-content > div {
+#index-content div,
+#services-content > div {
 	background-color: rgba(76, 75, 22, .8);
 	text-align: center;
 	width: 80%;
@@ -161,7 +163,8 @@ section > h2 {
 	border-radius: 25px;
 }
 /* Hidden images for services page */
-#offer-image-container,#expect-image-container {
+#offer-image-container,
+#expect-image-container {
 	display: none;
 }
 /* Gallery Page */
@@ -225,11 +228,12 @@ option {
 	/* Image from: https://www.pexels.com/photo/mountain-biking-on-enduro-bicycle-in-the-forest-8926946/ */
 	background: url('../images/booking-image2.jpg')no-repeat top center / cover;
 	height: 500px;
-	width: 500px;
+	width: 550px;
 	border-radius: 25px;
 }
 /* Hidden image for booking page */
-#first-booking-image-container,#second-booking-image-container {
+#first-booking-image-container,
+#second-booking-image-container {
 	display: none;
 }
 /* Confirmation Page*/
@@ -340,8 +344,9 @@ footer {
 		margin-top: 40px;
 	}
 	#first-booking-image {
-		max-width: 400px;
+		max-width: 500px;
 		max-height: 400px;
+		overflow: hidden;
 	}
 	#booking-form {
 		border-radius: 25px;
@@ -356,12 +361,14 @@ footer {
 	#menu a:hover {
 		border-bottom: 2px solid #e7b10a;
 	}
-	#index-content,#services-content {
+	#index-content,
+	#services-content {
 		display: flex;
 		position: relative;
 		justify-content: center;
 	}
-	#index-content div,#services-content > div {
+	#index-content div,
+	#services-content > div {
 		margin: 100px 80px 20px;
 		padding: 10px;
 		max-width: 350px;
@@ -370,7 +377,8 @@ footer {
 	#hidden-review {
 		display: initial;
 	}
-	#offer-image-container,#expect-image-container {
+	#offer-image-container,
+	#expect-image-container {
 		display: initial;
 	}
 	#services-content > div {
@@ -387,8 +395,9 @@ footer {
 		order: 2;
 	}
 	#second-booking-image {
-		max-width: 300px;
-		max-height: 400px;
+		max-width: 350px;
+		max-height: 500px;
+		overflow: hidden;
 	}
 	#first-booking-image-container {
 		order: 3;
