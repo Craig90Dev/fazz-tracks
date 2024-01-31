@@ -140,6 +140,11 @@ section > h2 {
 	padding: 10px 30px;
 	margin: 10px auto;
 }
+.review-pic {
+	max-height: 100px;
+	max-width: 100px;
+	border-radius: 50%;
+}
 /* Services Page */
 #expect-image-bg {
 	margin-bottom: 20px;
