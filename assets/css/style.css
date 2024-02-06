@@ -361,6 +361,7 @@ footer {
 	#menu a:hover {
 		border-bottom: 2px solid #e7b10a;
 	}
+	/* Index Page */
 	#index-content,
 	#services-content {
 		display: flex;
@@ -377,6 +378,7 @@ footer {
 	#hidden-review {
 		display: initial;
 	}
+	/* Services Page */
 	#offer-image-container,
 	#expect-image-container {
 		display: initial;
