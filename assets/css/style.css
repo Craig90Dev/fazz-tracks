@@ -209,7 +209,7 @@ section > h2 {
 }
 .radio-buttons {
 	display: flex;
-	justify-content: space-between;
+	align-items: center;
 	width: 100%;
 }
 .button {
