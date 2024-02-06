@@ -331,8 +331,8 @@ footer {
 	#booking {
 		display: flex;
 		flex-direction: row;
-		gap: 20px;
 		justify-content: space-evenly;
+		padding: 5% 5%;
 	}
 	/* Hidden image for Tablet screens*/
 	#first-booking-image-container {
@@ -344,8 +344,8 @@ footer {
 		margin-top: 40px;
 	}
 	#first-booking-image {
-		max-width: 500px;
-		max-height: 400px;
+		max-width: 400px;
+		max-height: 300px;
 		overflow: hidden;
 	}
 	#booking-form {
