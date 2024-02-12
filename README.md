@@ -2,7 +2,7 @@
 
 [Access the live site here.](https://craig90dev.github.io/fazz-tracks/)
 
-[Website view on UIDev tool]<img src="assets/images/uidevfazztracks.PNG" alt="UIDev view of website on various screen sizes">
+<img src="assets/images/uidevfazztracks.PNG" alt="UIDev view of website on various screen sizes">
 
 This is the documentation for the Fazz-Tracks website. Built using HTML5 and CSS3 for the Milestone 1 Project for Code Institutes Web Development Diploma course. 
 
@@ -22,25 +22,27 @@ This is the documentation for the Fazz-Tracks website. Built using HTML5 and CSS
 
     **First Time Visitor goals** -
 
-    * As a first time visitor I want to be able to easily understand the purpose of the website and what the business offers.
+    a. As a first time visitor I want to be able to easily understand the purpose of the website and what the business offers.
 
-    * I want to be able to easily navigate the site without having to use the browsers back/forward buttons at any time.
+    b. I want to be able to easily navigate the site without having to use the browsers back/forward buttons at any time.
 
-    * I want to be able to easily access the business social media platforms to further assess the suitablility of the business for my needs.
+    c. I want to be able to easily access the business social media platforms to further assess the suitablility of the business for my needs.
 
-    * I want to be able to see proof of previous customer visits through the use of a Gallery or Review page.
+    d. I want to be able to see proof of previous customer visits through the use of a Gallery or Review page.
 
     **Returning Visitor goals** -
 
-    * As a returning visitor I want to be able to see up to date reviews or photos on the websites Gallery to see they are active on the business website.
+    a. As a returning visitor I want to be able to see up to date reviews or photos on the websites Gallery to see they are active on the business website.
 
-    * I want to be able to easily book a visit to the place of business once I am happy with the service they provide.
+    b. I want to be able to easily book a visit to the place of business once I am happy with the service they provide.
 
     **Frequent Visiter goals** -
 
-    * As a frequent visitor I want to see updates for opening times and seasonal dates available for future bookings.
+    a. As a frequent visitor I want to see updates for opening times and seasonal dates available for future bookings.
 
-    * I want to see new features as the website expands.
+    b. I want to see new features as the website expands.
+
+******
 
 ### Scope
 
@@ -56,9 +58,13 @@ Taking the user goals into account I decided to start with four main content pag
 
 With these main pages there would also be links to the social media accounts of the business, allowing users to see more up-to-date experiences of other visitors at the center and any events that the business may promote.
 
+******
+
 ### Structure
 
 With the website starting out very simply, the navigation layout is linear and encourages the user to read information about the business, what the business provides, view some of the previous users experiences and then lastly make a booking.
+
+******
 
 ### Skeleton
 
@@ -67,3 +73,6 @@ With the website starting out very simply, the navigation layout is linear and e
 All Wireframes have been created using Balsamiq
 
 The wireframes shown here are the ideas for the initial layout of the website. Some styling has been changed since testing to allow for a better user experience and improve accessibility.
+
+******
+
