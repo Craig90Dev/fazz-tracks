@@ -114,7 +114,7 @@ The 'Roboto Mono' font has been used for the h1 and h2 headers on the website as
 
 ## Features
 
-#### Generic Header
+#### Page Navigation
 
 <details><summary>Mobile Header</summary>
 <img src="assets/images/mobile-header.PNG" alt="A screenshot of the header in mobile view">>
@@ -125,6 +125,10 @@ The 'Roboto Mono' font has been used for the h1 and h2 headers on the website as
 </details>
 
 On mobile devices the header appears as the "Fazz-Tracks" logo to the left with a "solid bar" icon on the right. The solid bar icon allows the user to toggle the navigation menu into view by clicking on it. On larger screens the navigation toggle icon dissapears and the navigation links appear as text. These navigation links have an underline feature showing the current page the user is on and also have a hover feature, showing the user the text acts as a link by showing an underline.
+
+#### Footer
+
+The footer on each page contains links to various social media websites. These links open in a new tab and represent the social media accounts the business would be using in a real life scenario.
 
 #### Index Page
 
@@ -201,3 +205,22 @@ On completion of the booking form, the "Submit" button takes the user to a confi
 4. To add a page for visitors to be able to upload their own images and videos from their experiences at Fazz-Tracks and display them on the Gallery page.
 
 5. To implement the ability to view images in the Gallery as a larger image and cycle through them.
+
+## Accessibility
+
+### Alt Text
+
+Alt text has been included for all images across the site, including all images in the ReadME.md.
+
+### Aria Labels
+
+Aria labels have been used for all links across the site.
+
+### Fonts
+
+The fonts have been chosen for easy readability and the headers contain extra letter spacing to make them easier to read.
+
+### Colours
+
+The colours throught the site have been chosen in order for the site to be light and colourful and easy to distinguish certain sections of the website without being too harsh on the eyes.
+
