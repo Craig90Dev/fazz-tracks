@@ -72,6 +72,8 @@ With the website starting out very simply, the navigation layout is linear and e
 
 All Wireframes have been created using [Balsamiq](https://balsamiq.com/).
 
+<details><summary>Fazz-Tracks Full Responsive Wireframes</summary>
+
 **Desktop View:**
 <img src="assets/images/full-view-website-wireframe.PNG" alt="Desktop view of wesbite wireframes">
 
@@ -80,6 +82,7 @@ All Wireframes have been created using [Balsamiq](https://balsamiq.com/).
 
 **Mobile View:**
 <img src="assets/images/mobile-view-website-wireframe.PNG" alt="Mobile view of website wireframes">
+</details>
 
 The wireframes shown here are the ideas for the initial layout of the website. Some styling has been changed since testing to allow for a better user experience and improve accessibility.
 
