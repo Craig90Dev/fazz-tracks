@@ -16,31 +16,31 @@ This is the documentation for the Fazz-Tracks website. Built using HTML5 and CSS
 
 ### Strategy
 
-    This project is designed with the aim to showcase the my skills and progression in learning the HTML5 and CSS3 coding languages through the Code Institute web development diploma course with a simple website, using my own resources and knowledge to create an example of a real world scenario for a customer requiring a website to show potential visitors their Mountain Bike Center why they should visit and what is available through them.
+This project is designed with the aim to showcase the my skills and progression in learning the HTML5 and CSS3 coding languages through the Code Institute web development diploma course with a simple website, using my own resources and knowledge to create an example of a real world scenario for a customer requiring a website to show potential visitors their Mountain Bike Center why they should visit and what is available through them.
 
 ### - User Stories
 
-    **First Time Visitor goals** -
+**First Time Visitor goals** -
 
-    a. As a first time visitor I want to be able to easily understand the purpose of the website and what the business offers.
+a. As a first time visitor I want to be able to easily understand the purpose of the website and what the business offers.
 
-    b. I want to be able to easily navigate the site without having to use the browsers back/forward buttons at any time.
+b. I want to be able to easily navigate the site without having to use the browsers back/forward buttons at any time.
 
-    c. I want to be able to easily access the business social media platforms to further assess the suitablility of the business for my needs.
+c. I want to be able to easily access the business social media platforms to further assess the suitablility of the business for my needs.
 
-    d. I want to be able to see proof of previous customer visits through the use of a Gallery or Review page.
+d. I want to be able to see proof of previous customer visits through the use of a Gallery or Review page.
 
-    **Returning Visitor goals** -
+**Returning Visitor goals** -
 
-    a. As a returning visitor I want to be able to see up to date reviews or photos on the websites Gallery to see they are active on the business website.
+a. As a returning visitor I want to be able to see up to date reviews or photos on the websites Gallery to see they are active on the business website.
 
-    b. I want to be able to easily book a visit to the place of business once I am happy with the service they provide.
+b. I want to be able to easily book a visit to the place of business once I am happy with the service they provide.
 
-    **Frequent Visiter goals** -
+**Frequent Visiter goals** -
 
-    a. As a frequent visitor I want to see updates for opening times and seasonal dates available for future bookings.
+a. As a frequent visitor I want to see updates for opening times and seasonal dates available for future bookings.
 
-    b. I want to see new features as the website expands.
+b. I want to see new features as the website expands.
 
 ******
 
