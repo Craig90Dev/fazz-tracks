@@ -194,6 +194,8 @@ On mobile devices, the booking page only consists of the booking form itself. On
 
 On completion of the booking form, the "Submit" button takes the user to a confirmation page letting the user know the booking has been successful and the form has worked. It also lets the user know they can return to the main site using the links at the top of the page.
 
+******
+
 ## Future Implementations
 
 1. To create functionality in the booking form. This would include the correct formatting of input sections (Only allow future dates in date field, must only be eleven digits in the phone number field ect.), and to add the ability to contact a back-end server in order to store customers booking details.
@@ -206,11 +208,13 @@ On completion of the booking form, the "Submit" button takes the user to a confi
 
 5. To implement the ability to view images in the Gallery as a larger image and cycle through them.
 
+******
+
 ## Accessibility
 
 ### Alt Text
 
-Alt text has been included for all images across the site, including all images in the ReadME.md.
+Alt text has been included for all images across the site, including all images in the ReadME.md and the FazzTracks logo.
 
 ### Aria Labels
 
@@ -223,4 +227,42 @@ The fonts have been chosen for easy readability and the headers contain extra le
 ### Colours
 
 The colours throught the site have been chosen in order for the site to be light and colourful and easy to distinguish certain sections of the website without being too harsh on the eyes.
+
+******
+
+## Technologies Used
+
+### Languages Used
+
+HTML & CSS
+
+### Frameworks, Programs and Libraries Used
+
+**Visual Studio Code** - All coding and styling of the website was done using VSCode.
+
+**GitPod** - To host the local server used and to save files to the GitHub Repository.
+
+**GitHub** - To save and store files for the website.
+
+**Git** - For version control.
+
+**Balsamiq** - For wireframes during website design period.
+
+**Icons8** - For FavIcon used.
+
+**Font Awesome** - For the icons used in the Navbar and Footer.
+
+**Google Fonts** - To import the fonts used on the website.
+
+**Pexels** - For stock images used.
+
+**Unsplash** - For stock images used.
+
+**Applogo** - For design of the FazzTracks logo.
+
+**UI.Dev** - To show the website on various screen sizes.
+
+**Firefox Devtools** - To troubleshoot and test responsiveness of various screen sizes.
+
+**ResizePixel** - To compress all images used throughout the website.
 
