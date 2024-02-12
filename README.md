@@ -87,6 +87,7 @@ All Wireframes have been created using [Balsamiq](https://balsamiq.com/).
 The wireframes shown here are the ideas for the initial layout of the website. Some styling has been changed since testing to allow for a better user experience and improve accessibility.
 
 ******
+
 ## The User Interface
 
 ### Surface
@@ -108,3 +109,31 @@ The fonts have been imported from [Google Fonts](https://fonts.google.com/).
 The 'Poppins' font has been used for the generic content text of the website. I chose this font as it is easy to read and provides the user with a slightly different font to a generic website font. The 'sans-serif' font is used as the fallback font as a generic content font.
 
 The 'Roboto Mono' font has been used for the h1 and h2 headers on the website as it stands nice and bold against the other content and is easy to read. The 'helvetica' font is used as the fallback font as a generic heading font.
+
+******
+
+## Features
+
+#### Generic Header
+
+On mobile devices the header appears as the "Fazz-Tracks" logo to the left with a "solid bar" icon on the right. The solid bar icon allows the user to toggle the navigation menu into view by clicking on it. On larger screens the navigation toggle icon dissapears and the navigation links appear as text. These navigation links have an underline feature showing the current page the user is on and also have a hover feature, showing the user the text acts as a link by showing an underline.
+
+#### Index Page
+
+On mobile devies, the three content boxes appear in a single column showing each content box in order, followed by three visitor reviews. On tablet screens, this view changes to show just two reviews next to each other to use the extra space, but not look too generic at the same time by having three content boxes with three review boxes below them. All three reviews are shown on larger/desktop screens and the content boxes appear next to each other, rather than below each other, to use up the extra space provided.
+
+#### Services Page
+
+The services page appears in a single column on mobile and tablet devices. This changes when viewed on larger/desktop screens as the content appears next to each other and two images also appear to give the user more interest.
+
+#### Gallery Page
+
+All images in the Gallery appear in a single column on mobile devices. On tablet/larger screens, this changes to three columns with space around the outside, giving the users a better experience on the gallery page.
+
+#### Booking Page
+
+On mobile devices, the booking page only consists of the booking form itself. On tablet screens this changes to the booking form on one side with an image opposite. This changes again on larger/desktop screens as an image will now appear on both sides of the booking form, giving the user more to look at.
+
+#### Confirmation of booking
+
+On completion of the booking form, the "Submit" button takes the user to a confirmation page letting the user know the booking has been successful and the form has worked. It also lets the user know they can return to the main site using the links at the top of the page.
