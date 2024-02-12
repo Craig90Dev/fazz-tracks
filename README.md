@@ -116,24 +116,76 @@ The 'Roboto Mono' font has been used for the h1 and h2 headers on the website as
 
 #### Generic Header
 
+<details><summary>Mobile Header</summary>
+<img src="assets/images/mobile-header.PNG" alt="A screenshot of the header in mobile view">>
+</details>
+
+<details><summary>Desktop Header</summary>
+<img src="assets/images/desktop-header.PNG" alt="A screenshot of the header in desktop view">
+</details>
+
 On mobile devices the header appears as the "Fazz-Tracks" logo to the left with a "solid bar" icon on the right. The solid bar icon allows the user to toggle the navigation menu into view by clicking on it. On larger screens the navigation toggle icon dissapears and the navigation links appear as text. These navigation links have an underline feature showing the current page the user is on and also have a hover feature, showing the user the text acts as a link by showing an underline.
 
 #### Index Page
+
+<details><summary>Index Page in Mobile view</summary>
+<img src="assets/images/mobile-index.PNG" alt="A screenshot of the index page in mobile view">
+</details>
+
+<details><summary>Index Page in Tablet view</summary>
+<img src="assets/images/tablet-index.PNG" alt="A screenshot of the index page in tablet view">
+</details>
+
+<details><summary>Index Page in Desktop view</summary>
+<img src="assets/images/desktop-index.PNG" alt="A screenshot of the index page in desktop view">
+</details>
 
 On mobile devies, the three content boxes appear in a single column showing each content box in order, followed by three visitor reviews. On tablet screens, this view changes to show just two reviews next to each other to use the extra space, but not look too generic at the same time by having three content boxes with three review boxes below them. All three reviews are shown on larger/desktop screens and the content boxes appear next to each other, rather than below each other, to use up the extra space provided.
 
 #### Services Page
 
+<details><summary>Services Page in Mobile view</summary>
+<img src="assets/images/mobile-services.PNG" alt="A screenshot of the services page in mobile view">
+</details>
+
+<details><summary>Services Page in Desktop view</summary>
+<img src="assets/images/desktop-services.PNG" alt="A screenshot of the services page in desktop view">
+</details>
+
 The services page appears in a single column on mobile and tablet devices. This changes when viewed on larger/desktop screens as the content appears next to each other and two images also appear to give the user more interest.
 
 #### Gallery Page
+
+<details><summary>Gallery Page in Mobile view</summary>
+<img src="assets/images/mobile-gallery.PNG" alt="A screenshot of the gallery page in mobile view">
+</details>
+
+<details><summary>Gallery Page in Tablet view</summary>
+<img src="assets/images/tablet-gallery.PNG" alt="A screenshot of the gallery page in tablet view">
+</details>
 
 All images in the Gallery appear in a single column on mobile devices. On tablet/larger screens, this changes to three columns with space around the outside, giving the users a better experience on the gallery page.
 
 #### Booking Page
 
+<details><summary>Booking Page in Mobile view</summary>
+<img src="assets/images/mobile-booking.PNG" alt="A screenshot of the booking page in mobile view">
+</details>
+
+<details><summary>Booking Page in Tablet view</summary>
+<img src="assets/images/tablet-booking.PNG" alt="A screenshot of the booking page in tablet view">
+</details>
+
+<details><summary>Booking Page in Desktop view</summary>
+<img src="assets/images/desktop-booking.PNG" alt="A screenshot of the booking page in desktop view">
+</details>
+
 On mobile devices, the booking page only consists of the booking form itself. On tablet screens this changes to the booking form on one side with an image opposite. This changes again on larger/desktop screens as an image will now appear on both sides of the booking form, giving the user more to look at.
 
 #### Confirmation of booking
+
+<details><summary>Confirmation Page in Tablet view</summary>
+<img src="assets/images/tablet-confirm.PNG" alt="A screenshot of the booking page in tablet view">
+</details>
 
 On completion of the booking form, the "Submit" button takes the user to a confirmation page letting the user know the booking has been successful and the form has worked. It also lets the user know they can return to the main site using the links at the top of the page.
