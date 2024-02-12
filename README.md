@@ -2,7 +2,7 @@
 
 [Access the live site here.](https://craig90dev.github.io/fazz-tracks/)
 
-<img src="assets/images/uidevfazztracks.PNG" alt="UIDev view of website on various screen sizes">
+<img src="assets/images/uidevfazztracks.PNG" alt="UIDev view of website on various screen sizes showing the website is responsive">
 
 This is the documentation for the Fazz-Tracks website. Built using HTML5 and CSS3 for the Milestone 1 Project for Code Institutes Web Development Diploma course. 
 
@@ -70,7 +70,16 @@ With the website starting out very simply, the navigation layout is linear and e
 
 #### Wireframes
 
-All Wireframes have been created using Balsamiq
+All Wireframes have been created using [Balsamiq](https://balsamiq.com/).
+
+**Desktop View:**
+<img src="assets/images/full-view-website-wireframe.PNG" alt="Desktop view of wesbite wireframes">
+
+**Tablet View:**
+<img src="assets/images/tablet-view-website-wireframe.PNG" alt="Tablet view of website wireframes">
+
+**Mobile View:**
+<img src="assets/images/mobile-view-website-wireframe.PNG" alt="Mobile view of website wireframes">
 
 The wireframes shown here are the ideas for the initial layout of the website. Some styling has been changed since testing to allow for a better user experience and improve accessibility.
 
