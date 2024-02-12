@@ -238,31 +238,33 @@ HTML & CSS
 
 ### Frameworks, Programs and Libraries Used
 
-**Visual Studio Code** - All coding and styling of the website was done using VSCode.
+[**Visual Studio Code**](https://code.visualstudio.com/) - All coding and styling of the website was done using VSCode.
 
-**GitPod** - To host the local server used and to save files to the GitHub Repository.
+[**GitPod**](https://gitpod.io/) - To host the local server used and to save files to the GitHub Repository.
 
-**GitHub** - To save and store files for the website.
+[**GitHub**](https://github.com/) - To save and store files for the website.
 
 **Git** - For version control.
 
-**Balsamiq** - For wireframes during website design period.
+[**Balsamiq**](https://balsamiq.com/) - For wireframes during website design period.
 
-**Icons8** - For FavIcon used.
+[**Icons8**](https://icons8.com/) - For FavIcon used.
 
-**Font Awesome** - For the icons used in the Navbar and Footer.
+[**Font Awesome**](https://fontawesome.com/icons) - For the icons used in the Navbar and Footer.
 
-**Google Fonts** - To import the fonts used on the website.
+[**Google Fonts**](https://fonts.google.com/) - To import the fonts used on the website.
 
-**Pexels** - For stock images used.
+[**Pexels**](https://www.pexels.com/) - For stock images used.
 
-**Unsplash** - For stock images used.
+[**Unsplash**](https://unsplash.com/) - For stock images used.
 
-**Applogo** - For design of the FazzTracks logo.
+[**Applogo**](https://app.logo.com/flow/business-name) - For design of the FazzTracks logo.
 
-**UI.Dev** - To show the website on various screen sizes.
+[**UI.Dev**](https://ui.dev/amiresponsive) - To show the website on various screen sizes.
 
-**Firefox Devtools** - To troubleshoot and test responsiveness of various screen sizes.
+**Firefox Dev Tools** - To troubleshoot and test responsiveness of various screen sizes.
 
-**ResizePixel** - To compress all images used throughout the website.
+**Chrome Dev Tools** - To troubleshoot and test accessibility using the Lighthouse feature.
+
+[**ResizePixel**](https://www.resizepixel.com/) - To compress all images used throughout the website.
 
