@@ -113,7 +113,7 @@ section > h2 {
 /* index Page */
 #index-content h1,
 #services-content h1 {
-	font-family: 'roboto-mono', sans-serif;
+	font-family: 'roboto-mono', helvetica;
 	text-transform: capitalize;
 	letter-spacing: 1px;
 	font-size: 140%;
@@ -129,7 +129,7 @@ section > h2 {
 	border-radius: 25px;
 }
 .review-text h2 {
-	font-family: 'roboto-mono', sans-serif;
+	font-family: 'roboto-mono', helvetica;
 	text-transform: capitalize;
 	letter-spacing: 1px;
 	font-size: 100%;
