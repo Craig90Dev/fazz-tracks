@@ -189,3 +189,15 @@ On mobile devices, the booking page only consists of the booking form itself. On
 </details>
 
 On completion of the booking form, the "Submit" button takes the user to a confirmation page letting the user know the booking has been successful and the form has worked. It also lets the user know they can return to the main site using the links at the top of the page.
+
+## Future Implementations
+
+1. To create functionality in the booking form. This would include the correct formatting of input sections (Only allow future dates in date field, must only be eleven digits in the phone number field ect.), and to add the ability to contact a back-end server in order to store customers booking details.
+
+2. To add a map function to the website, allowing the user to view Google Maps in a window to see where the business is located.
+
+3. To add a page for customer reviews to be imported and updated on the Home page after approval from the business owner and for reviews to be cycled through after refreshing the Home page.
+
+4. To add a page for visitors to be able to upload their own images and videos from their experiences at Fazz-Tracks and display them on the Gallery page.
+
+5. To implement the ability to view images in the Gallery as a larger image and cycle through them.
