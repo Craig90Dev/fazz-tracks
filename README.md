@@ -186,14 +186,6 @@ All images in the Gallery appear in a single column on mobile devices. On tablet
 
 On mobile devices, the booking page only consists of the booking form itself. On tablet screens this changes to the booking form on one side with an image opposite. This changes again on larger/desktop screens as an image will now appear on both sides of the booking form, giving the user more to look at.
 
-#### Confirmation of booking
-
-<details><summary>Confirmation Page in Tablet view</summary>
-<img src="assets/images/tablet-confirm.PNG" alt="A screenshot of the booking page in tablet view">
-</details>
-
-On completion of the booking form, the "Submit" button takes the user to a confirmation page letting the user know the booking has been successful and the form has worked. It also lets the user know they can return to the main site using the links at the top of the page.
-
 ******
 
 ## Future Implementations
@@ -332,10 +324,6 @@ HTML & CSS
 <img src="assets/images/booking-valid.PNG" alt="HTML Validation screenshot of Booking Page">
 </details>
 
-<details><summary>Confirmation Page</summary>
-<img src="assets/images/confirmation-valid.PNG" alt="HTML Validation screenshot of Confirmation Page">
-</details>
-
 [W3C](https://jigsaw.w3.org/css-validator/) was used to validate all CSS for the site via direct input. Final editing has been done to ensure all results produced were error free.
 
 <details><summary>Style.css</summary>
@@ -364,10 +352,6 @@ The Lighthouse tool in Chrome Dev Tools was used to test the performance, access
 <img src="assets/images/booking-light-mobile.PNG" alt="Screenshot of Booking Page Lighthouse Results for mobile">
 </details>
 
-<details><summary>Confirmation Page</summary>
-<img src="assets/images/confirmation-light-mobile.PNG" alt="Screenshot of Confirmation Page Lighthouse Results for mobile">
-</details>
-
 #### Desktop Results
 
 <details><summary>Home Page</summary>
@@ -384,10 +368,6 @@ The Lighthouse tool in Chrome Dev Tools was used to test the performance, access
 
 <details><summary>Booking Page</summary>
 <img src="assets/images/booking-light-desktop.PNG" alt="Screenshot of Booking Page Lighthouse Results for desktop">
-</details>
-
-<details><summary>Confirmation Page</summary>
-<img src="assets/images/confirmation-light-desktop.PNG" alt="Screenshot of Confirmation Page Lighthouse Results for desktop">
 </details>
 
 The content sections of the Home and Services page seem to affect the performance in mobile view as they are large areas of movement when scrolling. Also, the images on the Gallery page affect the performance in both mobile and desktop view due to the fact there are multiple images trying to load at once. Images have been compressed but this may need revisiting at a later date.
@@ -418,7 +398,7 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 | Services Nav Link | Clicking the Services nav link takes the user to the Home page | Clicked on the Services nav link on each page | Taken back to the Services page from all pages | Pass |
 | Gallery Nav Link | Clicking the Gallery nav link takes the user to the Home page | Clicked on the Gallery nav link on each page | Taken back to the Gallery page from all pages | Pass |
 | Booking Nav Link | Clicking the Booking nav link takes the user to the Home page | Clicked on the Booking nav link on each page | Taken back to the Booking page from all pages | Pass |
-| Submit Button in Form | Clicking the submit button takes the user to the Confirmation page when required form input fields are populated | Populated the requirede form inputs and clicked the Submit button | Taken to the Confirmation page | Pass |
+| Submit Button in Form | Clicking the submit button takes the user to the Code Institute FormDump page when required form input fields are populated | Populated the required form inputs and clicked the Submit button | Taken to the Code Institute FormDump page | Pass |
 | Form Required Fields | When form input is missing, message appears telling the user the field is required | Went through all required fields, missing each one individually | Message appeared for each field telling me an input is required | Pass |
 | Form Phone Contact Field | Field will only accept number inputs | Tried typing letters into the form Phone Contact input | Field only accepts numbers | Pass |
 | Social Media Links | Each social media link takes the user to the website in a seperate tab | Clicked each social media link on each page | All social media links went to the correct website from every page. All links opened in a new tab | Pass |
@@ -456,8 +436,6 @@ No other known bugs are in this version of the website
 [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/92a91cf7fcee4361a2af651b7827a341/) - Love Running Project for support with styling within CSS 
 
 [w3schools](https://www.w3schools.com/css/css_display_visibility.asp) - For hiding and displaying various images on the site.
-
-[altacademy](https://www.altcademy.com/blog/how-to-link-a-button-to-another-page-in-html/#linking-the-button-to-another-page) - For linking the submit button to the confirmation page.
 
 [stack overflow](https://stackoverflow.com/questions/17999067/how-to-force-only-numbers-in-a-input-without-javascript) - For making the contact number input allow numbers only using JS.
 

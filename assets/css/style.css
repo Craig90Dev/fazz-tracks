@@ -37,9 +37,6 @@ img {
 	background: url("../images/background-booking.jpg")no-repeat center center/cover fixed;
 	background-color: #f7f2cb;
 }
-.confirmation {
-    background-color: #f7f2cb;
-}
 /* Header */
 header {
 	background-color: #4c4b16;
@@ -239,16 +236,6 @@ option {
 #second-booking-image-container {
 	display: none;
 }
-/* Confirmation Page*/
-#congratulations {
-    background-color: #4c4b16;
-    text-align: center;
-    margin-top: 200px;
-    padding: 10px 10px;
-}
-#congratulations h1 {
-    color: #e7b10a;
-}
 /* Footer */
 footer {
 	background-color: #4c4b16;
@@ -354,10 +341,6 @@ footer {
 	#booking-form {
 		border-radius: 25px;
 	}
-    /* Confirmation Page */
-    #congratulations {
-        margin: 200px 50px;
-    }
 }
 /* Meadia query: Large devices (992pxs+) */
 @media screen and (min-width: 992px) {
