@@ -423,6 +423,25 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 | Form Phone Contact Field | Field will only accept number inputs | Tried typing letters into the form Phone Contact input | Field only accepts numbers | Pass |
 | Social Media Links | Each social media link takes the user to the website in a seperate tab | Clicked each social media link on each page | All social media links went to the correct website from every page. All links opened in a new tab | Pass |
 
+## Bugs
+
+### Solved Bugs
+
+| Issue | Details | What Was Done | Fixed? |
+| --- | --- | --- | --- |
+| FazzTracks Logo | The FazzTracks Logo not loading | Adjusted file path from absolute to relative | Fixed |
+| Booking Page Images | The images on the Booking page in desktop view appeared in the incorrect order with the form on the far left side | Using CSS, used the "order" function to reposition | Fixed |
+| All Images | All images in the website were to big and page loading was taking longer than neccessary | Compressed all images and replaced old ones | Fixed |
+| Gallery Page | The images used on the Gallery page created large open spaces in desktop view | Edited and cropped Gallery page images as neccessary | Fixed |
+| Form Submit Button link | When clicking the Submit button on the Booking page, the link wasn't working | Changed the Submit button from an input to an anchor wrapped around text | Fixed |
+
+### Known Bugs
+
+1. In the form on the Booking page, the Email field accepts any form of text as long as there is an "@" symbol in the text. Ideally, this would only accept recognised email accounts and may be implemented in the future.
+
+2. In the form on the Booking page, the date field currently accepts any date, whether that be in the past or many years in the future. When my knowledge improves I would like to make this field only accept dates that are one year in the future and refuse any past dates.
+
+No other known bugs are in this version of the website
 
 ******
 
