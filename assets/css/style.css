@@ -209,11 +209,14 @@ section > h2 {
 }
 .radio-buttons {
 	display: flex;
-	align-items: center;
-	width: 100%;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+#radio {
+	margin-right: 10px;
 }
 .button {
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 5px 10px;
 	font-size: 100%;
 	font-weight: bold;
