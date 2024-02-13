@@ -390,6 +390,25 @@ The Lighthouse tool in Chrome Dev Tools was used to test the performance, access
 <img src="assets/images/confirmation-light-desktop.PNG" alt="Screenshot of Confirmation Page Lighthouse Results for desktop">
 </details>
 
+The content sections of the Home and Services page seem to affect the performance in mobile view as they are large areas of movement when scrolling. Also, the images on the Gallery page affect the performance in both mobile and desktop view due to the fact there are multiple images trying to load at once. Images have been compressed but this may need revisiting at a later date.
+
+### Devices Used
+
+**Mobile**
+iPhone 11 Pro was used to test the mobile features of the website.
+
+**Desktop**
+Acer Aspire 5 A515 was used to test the desktop features of the website
+
+**Browsers**
+The Safari browser was used for testing on mobile.
+
+The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for testing on desktop.
+
+### Manual Testing
+
+
+
 ******
 
 ## Credits
