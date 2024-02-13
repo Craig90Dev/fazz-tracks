@@ -310,6 +310,34 @@ HTML & CSS
 
 ******
 
+## Testing
+
+### W3C Validator 
+
+[W3C](https://validator.w3.org/#validate_by_input) was used to validate all HTML for the site via the direct input. Each page was tested individually and final editing has been done to ensure all results produced were error free.
+
+**Home Page**
+<img src="assets/images/index-valid.PNG" alt="HTML Validation screenshot of Home Page">
+
+**Services Page**
+<img src="assets/images/services-valid.PNG" alt="HTML Validation screenshot of Services Page">
+
+**Gallery Page**
+<img src="assets/images/gallery-valid.PNG" alt="HTML Validation screenshot of Gallery Page">
+
+**Booking Page**
+<img src="assets/images/booking-valid.PNG" alt="HTML Validation screenshot of Booking Page">
+
+**Confirmation Page**
+<img src="assets/images/confirmation-valid.PNG" alt="HTML Validation screenshot of Confirmation Page">
+
+[W3C](https://jigsaw.w3.org/css-validator/) was used to validate all CSS for the site via direct input. Final editing has been done to ensure all results produced were error free.
+
+**Style.css**
+<img src="assets/images/css-valid.PNG" alt="CSS Validation screenshot of Style.css">
+
+******
+
 ## Credits
 
 ### Help Used
