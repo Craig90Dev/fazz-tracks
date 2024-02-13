@@ -268,3 +268,82 @@ HTML & CSS
 
 [**ResizePixel**](https://www.resizepixel.com/) - To compress all images used throughout the website.
 
+******
+
+## Deployment and Local Development
+
+### Deployment
+
+1. Log in to [GitHub](https://github.com/).
+
+2. Find the repository for [this project](https://github.com/Craig90Dev/fazz-tracks).
+
+3. Click on the Settings Link.
+
+4. Click on the Pages link in the navigation bar on the left side of the screen.
+
+5. In Source Selection, choose Main from the Select Branch drop down menu. Select Root from the Select folder drop down menu.
+
+6. Click Save. Your live GitHub site is now deployed at the URL shown.
+
+### Local Deployment
+
+#### How to Fork
+
+1. Log in to [GitHub](https://github.com/).
+
+2. Find the repository for [this project](https://github.com/Craig90Dev/fazz-tracks).
+
+3. Click the Fork button in the top right corner of the screen.
+
+#### How to Clone
+
+1. Log in to [GitHub](https://github.com/).
+
+2. Find the repository for [this project](https://github.com/Craig90Dev/fazz-tracks).
+
+3. Click the Code button and select whether you would like to clone with HTTPS, SSH or GitHub CLI. Copy the link displayed.
+
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3.
+
+******
+
+## Credits
+
+### Help Used
+
+[Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) - Love Running Project for the Navigation Bar toggle and drop down menu for mobile devices.
+
+[Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) - Love Running Project for Media quereys and responsivness.
+
+[Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/92a91cf7fcee4361a2af651b7827a341/) - Love Running Project for support with styling within CSS 
+
+[w3schools](https://www.w3schools.com/css/css_display_visibility.asp) - For hiding and displaying various images on the site.
+
+[altacademy](https://www.altcademy.com/blog/how-to-link-a-button-to-another-page-in-html/#linking-the-button-to-another-page) - For linking the submit button to the confirmation page.
+
+[stack overflow](https://stackoverflow.com/questions/17999067/how-to-force-only-numbers-in-a-input-without-javascript) - For making the contact number input allow numbers only using JS.
+
+### Content
+
+[ChatGPT](https://chat.openai.com/) - For general content and price list.
+
+### Media
+
+[Pexels](https://www.pexels.com/) - For stock images used for background images and page content.
+
+[Unsplash](https://unsplash.com/) - For stock images used in Gallery and reviews.
+
+[logo.com](https://logo.com/logos/application) - For the Fazz-Tracks logo
+
+[Icon8](https://icons8.com/icon/V9uXXBDWkesz/cycling-mountain-bike-skin-type-3) - For the FavIcon.
+
+### Acknowledgements
+
+Dick Vlaanderen (Mentor) - For the advice and encouragement I have received throughout the creation of the Fazz-Tracks website.
+
+The Slack community - For help needed with various questions and problems I had throughout the project.
+
+Friends and Family - For helping me test the website on various devices and giving feedback throughout.
