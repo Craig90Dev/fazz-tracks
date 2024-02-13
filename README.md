@@ -407,6 +407,21 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 
 ### Manual Testing
 
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| FazzTracks Logo | Acts as a link back to the Home Page from whatever page the user is on | Clicked FazzTracks logo on each page | Home Page loads | Pass |
+| Nav Bar Toggle | Menu opens on mobile devices when already closed | Clicked the toggle icon | Nav Menu opens | Pass |
+| Nav Bar Toggle | Menu closes on mobile device when already open | Clicked on toggle icon | Nav Menu closes | Pass |
+| Active Page Indicator | An underline appears under the title of the current page | Went to each page of the website | Active underline appears under the title of the page currently open for every page | Pass |
+| Nav Menu Hover Effect | Underline appears on mouse hover over menu items | Went to each page and hovered over menu items | Underline appears under menu itmes when hovered over on each page | Pass |
+| Home Nav Link | Clicking the Home nav link takes the user to the Home page | Clicked on the Home nav link on each page | Taken back to the Home page from all pages | Pass |
+| Services Nav Link | Clicking the Services nav link takes the user to the Home page | Clicked on the Services nav link on each page | Taken back to the Services page from all pages | Pass |
+| Gallery Nav Link | Clicking the Gallery nav link takes the user to the Home page | Clicked on the Gallery nav link on each page | Taken back to the Gallery page from all pages | Pass |
+| Booking Nav Link | Clicking the Booking nav link takes the user to the Home page | Clicked on the Booking nav link on each page | Taken back to the Booking page from all pages | Pass |
+| Submit Button in Form | Clicking the submit button takes the user to the Confirmation page when required form input fields are populated | Populated the requirede form inputs and clicked the Submit button | Taken to the Confirmation page | Pass |
+| Form Required Fields | When form input is missing, message appears telling the user the field is required | Went through all required fields, missing each one individually | Message appeared for each field telling me an input is required | Pass |
+| Form Phone Contact Field | Field will only accept number inputs | Tried typing letters into the form Phone Contact input | Field only accepts numbers | Pass |
+| Social Media Links | Each social media link takes the user to the website in a seperate tab | Clicked each social media link on each page | All social media links went to the correct website from every page. All links opened in a new tab | Pass |
 
 
 ******
