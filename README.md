@@ -316,30 +316,78 @@ HTML & CSS
 
 [W3C](https://validator.w3.org/#validate_by_input) was used to validate all HTML for the site via the direct input. Each page was tested individually and final editing has been done to ensure all results produced were error free.
 
-<details><summary>**Home Page**</summary>
+<details><summary>Home Page</summary>
 <img src="assets/images/index-valid.PNG" alt="HTML Validation screenshot of Home Page">
 </details>
 
-<details><summary>**Services Page**</summary>
+<details><summary>Services Page</summary>
 <img src="assets/images/services-valid.PNG" alt="HTML Validation screenshot of Services Page">
 </details>
 
-<details><summary>**Gallery Page**</summary>
+<details><summary>Gallery Page</summary>
 <img src="assets/images/gallery-valid.PNG" alt="HTML Validation screenshot of Gallery Page">
 </details>
 
-<details><summary>**Booking Page**</summary>
+<details><summary>Booking Page</summary>
 <img src="assets/images/booking-valid.PNG" alt="HTML Validation screenshot of Booking Page">
 </details>
 
-<details><summary>**Confirmation Page**</summary>
+<details><summary>Confirmation Page</summary>
 <img src="assets/images/confirmation-valid.PNG" alt="HTML Validation screenshot of Confirmation Page">
 </details>
 
 [W3C](https://jigsaw.w3.org/css-validator/) was used to validate all CSS for the site via direct input. Final editing has been done to ensure all results produced were error free.
 
-<details><summary>**Style.css**</summary>
+<details><summary>Style.css</summary>
 <img src="assets/images/css-valid.PNG" alt="CSS Validation screenshot of Style.css">
+</details>
+
+### Lighthouse
+
+The Lighthouse tool in Chrome Dev Tools was used to test the performance, accessibility, best practices and search engine results ranking of the website.
+
+#### Mobile Results
+
+<details><summary>Home Page</summary>
+<img src="assets/images/home-light-mobile.PNG" alt="Screenshot of Home Page Lighthouse Results for mobile">
+</details>
+
+<details><summary>Services Page</summary>
+<img src="assets/images/services-light-mobile.PNG" alt="Screenshot of Services Page Lighthouse Results for mobile">
+</details>
+
+<details><summary>Gallery Page</summary>
+<img src="assets/images/gallery-light-mobile.PNG" alt="Screenshot of Gallery Page Lighthouse Results for mobile">
+</details>
+
+<details><summary>Booking Page</summary>
+<img src="assets/images/booking-light-mobile.PNG" alt="Screenshot of Booking Page Lighthouse Results for mobile">
+</details>
+
+<details><summary>Confirmation Page</summary>
+<img src="assets/images/confirmation-light-mobile.PNG" alt="Screenshot of Confirmation Page Lighthouse Results for mobile">
+</details>
+
+#### Desktop Results
+
+<details><summary>Home Page</summary>
+<img src="assets/images/home-light-desktop.PNG" alt="Screenshot of Home Page Lighthouse Results for desktop">
+</details>
+
+<details><summary>Services Page</summary>
+<img src="assets/images/services-light-desktop.PNG" alt="Screenshot of Services Page Lighthouse Results for desktop">
+</details>
+
+<details><summary>Gallery Page</summary>
+<img src="assets/images/gallery-light-desktop.PNG" alt="Screenshot of Gallery Page Lighthouse Results for desktop">
+</details>
+
+<details><summary>Booking Page</summary>
+<img src="assets/images/booking-light-desktop.PNG" alt="Screenshot of Booking Page Lighthouse Results for desktop">
+</details>
+
+<details><summary>Confirmation Page</summary>
+<img src="assets/images/confirmation-light-desktop.PNG" alt="Screenshot of Confirmation Page Lighthouse Results for desktop">
 </details>
 
 ******
