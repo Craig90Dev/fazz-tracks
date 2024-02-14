@@ -82,7 +82,7 @@ b. I want to see new features as the website expands.
 
 Taking the user goals into account I decided to start with four main content pages:
 
-**Home Page** - This would provide users with information on the "What, Where and Why" the business is about and why they should choose this business, along with reviews from previous visitors.
+**Index Page** - This would provide users with information on the "What, Where and Why" the business is about and why they should choose this business, along with reviews from previous visitors.
 
 **Services Page** - This would provide details of what the user can expect and a price list of the services provided by the business.
 
@@ -254,7 +254,7 @@ On mobile devices, the booking page only consists of the booking form itself. On
 
 2. To add a map function to the website, allowing the user to view Google Maps in a window to see where the business is located.
 
-3. To add a page for customer reviews to be imported and updated on the Home page after approval from the business owner and for reviews to be cycled through after refreshing the Home page.
+3. To add a page for customer reviews to be imported and updated on the Index page after approval from the business owner and for reviews to be cycled through after refreshing the Index page.
 
 4. To add a page for visitors to be able to upload their own images and videos from their experiences at Fazz-Tracks and display them on the Gallery page.
 
@@ -385,7 +385,7 @@ The colours throught the site have been chosen in order for the site to be light
 [W3C](https://validator.w3.org/#validate_by_input) was used to validate all HTML for the site via the direct input. Each page was tested individually and final editing has been done to ensure all results produced were error free.
 
 <details><summary>Index Page</summary>
-<img src="assets/images/readme-images/validity/index-valid.PNG" alt="HTML Validation screenshot of Home Page">
+<img src="assets/images/readme-images/validity/index-valid.PNG" alt="HTML Validation screenshot of Index Page">
 </details>
 
 <details><summary>Services Page</summary>
@@ -414,8 +414,8 @@ The Lighthouse tool in Chrome Dev Tools was used to test the performance, access
 
 #### Mobile Results
 
-<details><summary>Home Page</summary>
-<img src="assets/images/readme-images/lighthouse/index-light-mobile.PNG" alt="Screenshot of Home Page Lighthouse Results for mobile">
+<details><summary>Index Page</summary>
+<img src="assets/images/readme-images/lighthouse/index-light-mobile.PNG" alt="Screenshot of Index Page Lighthouse Results for mobile">
 </details>
 
 <details><summary>Services Page</summary>
@@ -435,7 +435,7 @@ The Lighthouse tool in Chrome Dev Tools was used to test the performance, access
 #### Desktop Results
 
 <details><summary>Index Page</summary>
-<img src="assets/images/readme-images/lighthouse/index-light-desktop.PNG" alt="Screenshot of Home Page Lighthouse Results for desktop">
+<img src="assets/images/readme-images/lighthouse/index-light-desktop.PNG" alt="Screenshot of Index Page Lighthouse Results for desktop">
 </details>
 
 <details><summary>Services Page</summary>
@@ -450,7 +450,7 @@ The Lighthouse tool in Chrome Dev Tools was used to test the performance, access
 <img src="assets/images/readme-images/lighthouse/booking-light-desktop.PNG" alt="Screenshot of Booking Page Lighthouse Results for desktop">
 </details>
 
-The content sections of the Home and Services page seem to affect the performance in mobile view as they are large areas of movement when scrolling. Also, the images on the Gallery page affect the performance in both mobile and desktop view due to the fact there are multiple images trying to load at once. Images have been compressed but this may need revisiting at a later date.
+The content sections of the Index and Services page seem to affect the performance in mobile view as they are large areas of movement when scrolling. Also, the images on the Gallery page affect the performance in both mobile and desktop view due to the fact there are multiple images trying to load at once. Images have been compressed but this may need revisiting at a later date.
 
 ******
 
@@ -473,15 +473,15 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| FazzTracks Logo | Acts as a link back to the Home Page from whatever page the user is on | Clicked FazzTracks logo on each page | Home Page loads | Pass |
+| FazzTracks Logo | Acts as a link back to the Index Page from whatever page the user is on | Clicked FazzTracks logo on each page | Index Page loads | Pass |
 | Nav Bar Toggle | Menu opens on mobile devices when already closed | Clicked the toggle icon | Nav Menu opens | Pass |
 | Nav Bar Toggle | Menu closes on mobile device when already open | Clicked on toggle icon | Nav Menu closes | Pass |
 | Active Page Indicator | An underline appears under the title of the current page | Went to each page of the website | Active underline appears under the title of the page currently open for every page | Pass |
 | Nav Menu Hover Effect | Underline appears on mouse hover over menu items | Went to each page and hovered over menu items | Underline appears under menu itmes when hovered over on each page | Pass |
-| Home Nav Link | Clicking the Home nav link takes the user to the Home page | Clicked on the Home nav link on each page | Taken back to the Home page from all pages | Pass |
-| Services Nav Link | Clicking the Services nav link takes the user to the Home page | Clicked on the Services nav link on each page | Taken back to the Services page from all pages | Pass |
-| Gallery Nav Link | Clicking the Gallery nav link takes the user to the Home page | Clicked on the Gallery nav link on each page | Taken back to the Gallery page from all pages | Pass |
-| Booking Nav Link | Clicking the Booking nav link takes the user to the Home page | Clicked on the Booking nav link on each page | Taken back to the Booking page from all pages | Pass |
+| Index Page Nav Link | Clicking the Index nav link takes the user to the Index page | Clicked on the Index page nav link on each page | Taken back to the Index page from all pages | Pass |
+| Services Page Nav Link | Clicking the Services nav link takes the user to the Index page | Clicked on the Services page nav link on each page | Taken back to the Services page from all pages | Pass |
+| Gallery Page Nav Link | Clicking the Gallery nav link takes the user to the Index page | Clicked on the Gallery page nav link on each page | Taken back to the Gallery page from all pages | Pass |
+| Booking Page Nav Link | Clicking the Booking nav link takes the user to the Index page | Clicked on the Booking page nav link on each page | Taken back to the Booking page from all pages | Pass |
 | Submit Button in Form | Clicking the submit button takes the user to the Code Institute FormDump page when required form input fields are populated | Populated the required form inputs and clicked the Submit button | Taken to the Code Institute FormDump page | Pass |
 | Form Required Fields | When form input is missing, message appears telling the user the field is required | Went through all required fields, missing each one individually | Message appeared for each field telling me an input is required | Pass |
 | Form Phone Contact Field | Field will only accept number inputs | Tried typing letters into the form Phone Contact input | Field only accepts numbers | Pass |
