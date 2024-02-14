@@ -268,7 +268,7 @@ On mobile devices, the booking page only consists of the booking form itself. On
 
 ### Alt Text
 
-Alt text has been included for all images across the site, including all images in the ReadME.md and the FazzTracks logo.
+Alt text has been included for all images across the site, including all images in the ReadME.md and the Fazz-Tracks logo.
 
 ### Aria Labels
 
@@ -320,7 +320,7 @@ The colours throughout the site have been chosen in order for the site to be lig
 
 [**Unsplash**](https://unsplash.com/) - For stock images used.
 
-[**Applogo**](https://app.logo.com/flow/business-name) - For design of the FazzTracks logo.
+[**Applogo**](https://app.logo.com/flow/business-name) - For design of the Fazz-Tracks logo.
 
 [**UI.Dev**](https://ui.dev/amiresponsive) - To show the website on various screen sizes.
 
@@ -473,7 +473,7 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| FazzTracks Logo | Acts as a link back to the Index Page from whatever page the user is on | Clicked FazzTracks logo on each page | Index Page loads | Pass |
+| Fazz-Tracks Logo | Acts as a link back to the Index Page from whatever page the user is on | Clicked Fazz-Tracks logo on each page | Index Page loads | Pass |
 | Nav Bar Toggle | Menu opens on mobile devices when already closed | Clicked the toggle icon | Nav Menu opens | Pass |
 | Nav Bar Toggle | Menu closes on mobile device when already open | Clicked on toggle icon | Nav Menu closes | Pass |
 | Active Page Indicator | An underline appears under the title of the current page | Went to each page of the website | Active underline appears under the title of the page currently open for every page | Pass |
@@ -497,7 +497,7 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 
 | Issue | Details | What Was Done | Fixed? |
 | --- | --- | --- | --- |
-| FazzTracks Logo | The FazzTracks Logo not loading | Adjusted file path from absolute to relative | Fixed |
+| Fazz-Tracks Logo | The Fazz-Tracks Logo not loading | Adjusted file path from absolute to relative | Fixed |
 | Booking Page Images | The images on the Booking page in desktop view appeared in the incorrect order with the form on the far left side | Using CSS, used the "order" function to reposition | Fixed |
 | All Images | All images in the website were too big and page loading was taking longer than necessary | Compressed all images and replaced old ones | Fixed |
 | Gallery Page | The images used on the Gallery page created large open spaces in desktop view | Edited and cropped Gallery page images as necessary | Fixed |
