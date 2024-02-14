@@ -2,7 +2,7 @@
 
 [Access the live site here.](https://craig90dev.github.io/fazz-tracks/)
 
-<img src="assets/images/uidevfazztracks.PNG" alt="UIDev view of website on various screen sizes showing the website is responsive">
+<img src="assets/images/readme-images/uidev/uidevfazztracks.PNG" alt="UIDev view of website on various screen sizes showing the website is responsive">
 
 This is the documentation for the Fazz-Tracks website. Built using HTML5 and CSS3 for the Milestone 1 Project for Code Institutes Web Development Diploma course. 
 
@@ -109,13 +109,13 @@ All Wireframes have been created using [Balsamiq](https://balsamiq.com/).
 <details><summary>Fazz-Tracks Full Responsive Wireframes</summary>
 
 **Desktop View:**
-<img src="assets/images/full-view-website-wireframe.PNG" alt="Desktop view of wesbite wireframes">
+<img src="assets/images/readme-images/wireframes/desktop-website-wireframe.PNG" alt="Desktop view of wesbite wireframes">
 
 **Tablet View:**
-<img src="assets/images/tablet-view-website-wireframe.PNG" alt="Tablet view of website wireframes">
+<img src="assets/images/readme-images/wireframes/tablet-view-website-wireframe.PNG" alt="Tablet view of website wireframes">
 
 **Mobile View:**
-<img src="assets/images/mobile-view-website-wireframe.PNG" alt="Mobile view of website wireframes">
+<img src="assets/images/readme-images/wireframes/mobile-view-website-wireframe.PNG" alt="Mobile view of website wireframes">
 </details>
 
 The wireframes shown here are the ideas for the initial layout of the website. Some styling has been changed since testing to allow for a better user experience and improve accessibility.
@@ -157,11 +157,11 @@ The 'Roboto Mono' font has been used for the h1 and h2 headers on the website as
 ### Page Navigation
 
 <details><summary>Mobile Header</summary>
-<img src="assets/images/mobile-header.PNG" alt="A screenshot of the header in mobile view">>
+<img src="assets/images/readme-images/screenshots/mobile-header.PNG" alt="A screenshot of the header in mobile view">>
 </details>
 
 <details><summary>Desktop Header</summary>
-<img src="assets/images/desktop-header.PNG" alt="A screenshot of the header in desktop view">
+<img src="assets/images/readme-images/screenshots/desktop-header.PNG" alt="A screenshot of the header in desktop view">
 </details>
 
 On mobile devices the header appears as the "Fazz-Tracks" logo to the left with a "solid bar" icon on the right. The solid bar icon allows the user to toggle the navigation menu into view by clicking on it. On larger screens the navigation toggle icon dissapears and the navigation links appear as text. These navigation links have an underline feature showing the current page the user is on and also have a hover feature, showing the user the text acts as a link by showing an underline.
@@ -177,15 +177,15 @@ The footer on each page contains links to various social media websites. These l
 ### Index Page
 
 <details><summary>Index Page in Mobile view</summary>
-<img src="assets/images/mobile-index.PNG" alt="A screenshot of the index page in mobile view">
+<img src="assets/images/readme-images/screenshots/mobile-index.PNG" alt="A screenshot of the index page in mobile view">
 </details>
 
 <details><summary>Index Page in Tablet view</summary>
-<img src="assets/images/tablet-index.PNG" alt="A screenshot of the index page in tablet view">
+<img src="assets/images/readme-images/screenshots/tablet-index.PNG" alt="A screenshot of the index page in tablet view">
 </details>
 
 <details><summary>Index Page in Desktop view</summary>
-<img src="assets/images/desktop-index.PNG" alt="A screenshot of the index page in desktop view">
+<img src="assets/images/readme-images/screenshots/desktop-index.PNG" alt="A screenshot of the index page in desktop view">
 </details>
 
 On mobile devies, the three content boxes appear in a single column showing each content box in order, followed by three visitor reviews. On tablet screens, this view changes to show just two reviews next to each other to use the extra space, but not look too generic at the same time by having three content boxes with three review boxes below them. All three reviews are shown on larger/desktop screens and the content boxes appear next to each other, rather than below each other, to use up the extra space provided.
@@ -195,11 +195,11 @@ On mobile devies, the three content boxes appear in a single column showing each
 ### Services Page
 
 <details><summary>Services Page in Mobile view</summary>
-<img src="assets/images/mobile-services.PNG" alt="A screenshot of the services page in mobile view">
+<img src="assets/images/readme-images/screenshots/mobile-services.PNG" alt="A screenshot of the services page in mobile view">
 </details>
 
 <details><summary>Services Page in Desktop view</summary>
-<img src="assets/images/desktop-services.PNG" alt="A screenshot of the services page in desktop view">
+<img src="assets/images/readme-images/screenshots/desktop-services.PNG" alt="A screenshot of the services page in desktop view">
 </details>
 
 The services page appears in a single column on mobile and tablet devices. This changes when viewed on larger/desktop screens as the content appears next to each other and two images also appear to give the user more interest.
@@ -209,29 +209,29 @@ The services page appears in a single column on mobile and tablet devices. This 
 ### Gallery Page
 
 <details><summary>Gallery Page in Mobile view</summary>
-<img src="assets/images/mobile-gallery.PNG" alt="A screenshot of the gallery page in mobile view">
+<img src="assets/images/readme-images/screenshots/mobile-gallery.PNG" alt="A screenshot of the gallery page in mobile view">
 </details>
 
 <details><summary>Gallery Page in Tablet view</summary>
-<img src="assets/images/tablet-gallery.PNG" alt="A screenshot of the gallery page in tablet view">
+<img src="assets/images/readme-images/screenshots/tablet-gallery.PNG" alt="A screenshot of the gallery page in tablet view">
 </details>
 
-All images in the Gallery appear in a single column on mobile devices. On tablet/larger screens, this changes to three columns with space around the outside, giving the users a better experience on the gallery page.
+All images in the Gallery appear in a single column on mobile devices. On tablet/desktop screens, this changes to three columns with space around the outside, giving the users a better experience on the gallery page.
 
 ******
 
 ### Booking Page
 
 <details><summary>Booking Page in Mobile view</summary>
-<img src="assets/images/mobile-booking.PNG" alt="A screenshot of the booking page in mobile view">
+<img src="assets/images/readme-images/screenshots/mobile-booking.PNG" alt="A screenshot of the booking page in mobile view">
 </details>
 
 <details><summary>Booking Page in Tablet view</summary>
-<img src="assets/images/tablet-booking.PNG" alt="A screenshot of the booking page in tablet view">
+<img src="assets/images/readme-images/screenshots/tablet-booking.PNG" alt="A screenshot of the booking page in tablet view">
 </details>
 
 <details><summary>Booking Page in Desktop view</summary>
-<img src="assets/images/desktop-booking.PNG" alt="A screenshot of the booking page in desktop view">
+<img src="assets/images/readme-images/screenshots/desktop-booking.PNG" alt="A screenshot of the booking page in desktop view">
 </details>
 
 On mobile devices, the booking page only consists of the booking form itself. On tablet screens this changes to the booking form on one side with an image opposite. This changes again on larger/desktop screens as an image will now appear on both sides of the booking form, giving the user more to look at.
@@ -376,26 +376,26 @@ The colours throught the site have been chosen in order for the site to be light
 
 [W3C](https://validator.w3.org/#validate_by_input) was used to validate all HTML for the site via the direct input. Each page was tested individually and final editing has been done to ensure all results produced were error free.
 
-<details><summary>Home Page</summary>
-<img src="assets/images/index-valid.PNG" alt="HTML Validation screenshot of Home Page">
+<details><summary>Index Page</summary>
+<img src="assets/images/readme-images/validity/index-valid.PNG" alt="HTML Validation screenshot of Home Page">
 </details>
 
 <details><summary>Services Page</summary>
-<img src="assets/images/services-valid.PNG" alt="HTML Validation screenshot of Services Page">
+<img src="assets/images/readme-images/validity/services-valid.PNG" alt="HTML Validation screenshot of Services Page">
 </details>
 
 <details><summary>Gallery Page</summary>
-<img src="assets/images/gallery-valid.PNG" alt="HTML Validation screenshot of Gallery Page">
+<img src="assets/images/readme-images/validity/gallery-valid.PNG" alt="HTML Validation screenshot of Gallery Page">
 </details>
 
 <details><summary>Booking Page</summary>
-<img src="assets/images/booking-valid.PNG" alt="HTML Validation screenshot of Booking Page">
+<img src="assets/images/readme-images/validity/booking-valid.PNG" alt="HTML Validation screenshot of Booking Page">
 </details>
 
 [W3C](https://jigsaw.w3.org/css-validator/) was used to validate all CSS for the site via direct input. Final editing has been done to ensure all results produced were error free.
 
 <details><summary>Style.css</summary>
-<img src="assets/images/css-valid.PNG" alt="CSS Validation screenshot of Style.css">
+<img src="assets/images/readme-images/validity/css-valid.PNG" alt="CSS Validation screenshot of Style.css">
 </details>
 
 ******
@@ -407,39 +407,39 @@ The Lighthouse tool in Chrome Dev Tools was used to test the performance, access
 #### Mobile Results
 
 <details><summary>Home Page</summary>
-<img src="assets/images/home-light-mobile.PNG" alt="Screenshot of Home Page Lighthouse Results for mobile">
+<img src="assets/images/readme-images/lighthouse/index-light-mobile.PNG" alt="Screenshot of Home Page Lighthouse Results for mobile">
 </details>
 
 <details><summary>Services Page</summary>
-<img src="assets/images/services-light-mobile.PNG" alt="Screenshot of Services Page Lighthouse Results for mobile">
+<img src="assets/images/readme-images/lighthouse/services-light-mobile.PNG" alt="Screenshot of Services Page Lighthouse Results for mobile">
 </details>
 
 <details><summary>Gallery Page</summary>
-<img src="assets/images/gallery-light-mobile.PNG" alt="Screenshot of Gallery Page Lighthouse Results for mobile">
+<img src="assets/images/readme-images/lighthouse/gallery-light-mobile.PNG" alt="Screenshot of Gallery Page Lighthouse Results for mobile">
 </details>
 
 <details><summary>Booking Page</summary>
-<img src="assets/images/booking-light-mobile.PNG" alt="Screenshot of Booking Page Lighthouse Results for mobile">
+<img src="assets/images/readme-images/lighthouse/booking-light-mobile.PNG" alt="Screenshot of Booking Page Lighthouse Results for mobile">
 </details>
 
 ******
 
 #### Desktop Results
 
-<details><summary>Home Page</summary>
-<img src="assets/images/home-light-desktop.PNG" alt="Screenshot of Home Page Lighthouse Results for desktop">
+<details><summary>Index Page</summary>
+<img src="assets/images/readme-images/lighthouse/index-light-desktop.PNG" alt="Screenshot of Home Page Lighthouse Results for desktop">
 </details>
 
 <details><summary>Services Page</summary>
-<img src="assets/images/services-light-desktop.PNG" alt="Screenshot of Services Page Lighthouse Results for desktop">
+<img src="assets/images/readme-images/lighthouse/services-light-desktop.PNG" alt="Screenshot of Services Page Lighthouse Results for desktop">
 </details>
 
 <details><summary>Gallery Page</summary>
-<img src="assets/images/gallery-light-desktop.PNG" alt="Screenshot of Gallery Page Lighthouse Results for desktop">
+<img src="assets/images/readme-images/lighthouse/gallery-light-desktop.PNG" alt="Screenshot of Gallery Page Lighthouse Results for desktop">
 </details>
 
 <details><summary>Booking Page</summary>
-<img src="assets/images/booking-light-desktop.PNG" alt="Screenshot of Booking Page Lighthouse Results for desktop">
+<img src="assets/images/readme-images/lighthouse/booking-light-desktop.PNG" alt="Screenshot of Booking Page Lighthouse Results for desktop">
 </details>
 
 The content sections of the Home and Services page seem to affect the performance in mobile view as they are large areas of movement when scrolling. Also, the images on the Gallery page affect the performance in both mobile and desktop view due to the fact there are multiple images trying to load at once. Images have been compressed but this may need revisiting at a later date.
