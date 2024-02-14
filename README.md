@@ -10,6 +10,40 @@ This is the documentation for the Fazz-Tracks website. Built using HTML5 and CSS
 
 ## Contents
 
+* [The User Experience](#the-user-experience)
+    * [Strategy](#strategy)
+    * [Scope](#scope)
+    * [Structure](#structure)
+    * [Skeleton](#skeleton)
+* [The User Interface](#the-user-interface)
+    * [Surface](#surface)
+* [Features](#features)
+    * [Page Navigation](#page-navigation)
+    * [Footer](#footer)
+    * [Index Page](#index-page)
+    * [Services Page](#services-page)
+    * [Gallery Page](#gallery-page)
+    * [Booking Page](#booking-page)
+* [Future Implementations](#future-implementations)
+* [Accessibility](#accessibility)
+* [Technologies Used](#technologies-used)
+* [Deployment and Local Development](#deployment-and-local-development)
+    * [Deployment](#deployment)
+    * [Local Deployment](#local-deployment)
+* [Testing](#testing)
+    * [W3C Validator](#w3c-validator)
+    * [Lighthouse](#lighthouse)
+    * [Devices Used](#devices-used)
+    * [Manual Testing](#manual-testing)
+* [Issues/Bugs](#issues\/bugs)
+    * [Solved Issues](#solved-issues)
+    * [Known Bugs](#known-bugs)
+* [Credits](#credits)
+    * [Help Used](#help-used)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
+
 ******
 
 ## The User Experience
@@ -114,7 +148,7 @@ The 'Roboto Mono' font has been used for the h1 and h2 headers on the website as
 
 ## Features
 
-#### Page Navigation
+### Page Navigation
 
 <details><summary>Mobile Header</summary>
 <img src="assets/images/mobile-header.PNG" alt="A screenshot of the header in mobile view">>
@@ -126,11 +160,11 @@ The 'Roboto Mono' font has been used for the h1 and h2 headers on the website as
 
 On mobile devices the header appears as the "Fazz-Tracks" logo to the left with a "solid bar" icon on the right. The solid bar icon allows the user to toggle the navigation menu into view by clicking on it. On larger screens the navigation toggle icon dissapears and the navigation links appear as text. These navigation links have an underline feature showing the current page the user is on and also have a hover feature, showing the user the text acts as a link by showing an underline.
 
-#### Footer
+### Footer
 
 The footer on each page contains links to various social media websites. These links open in a new tab and represent the social media accounts the business would be using in a real life scenario.
 
-#### Index Page
+### Index Page
 
 <details><summary>Index Page in Mobile view</summary>
 <img src="assets/images/mobile-index.PNG" alt="A screenshot of the index page in mobile view">
@@ -146,7 +180,7 @@ The footer on each page contains links to various social media websites. These l
 
 On mobile devies, the three content boxes appear in a single column showing each content box in order, followed by three visitor reviews. On tablet screens, this view changes to show just two reviews next to each other to use the extra space, but not look too generic at the same time by having three content boxes with three review boxes below them. All three reviews are shown on larger/desktop screens and the content boxes appear next to each other, rather than below each other, to use up the extra space provided.
 
-#### Services Page
+### Services Page
 
 <details><summary>Services Page in Mobile view</summary>
 <img src="assets/images/mobile-services.PNG" alt="A screenshot of the services page in mobile view">
@@ -158,7 +192,7 @@ On mobile devies, the three content boxes appear in a single column showing each
 
 The services page appears in a single column on mobile and tablet devices. This changes when viewed on larger/desktop screens as the content appears next to each other and two images also appear to give the user more interest.
 
-#### Gallery Page
+### Gallery Page
 
 <details><summary>Gallery Page in Mobile view</summary>
 <img src="assets/images/mobile-gallery.PNG" alt="A screenshot of the gallery page in mobile view">
@@ -170,7 +204,7 @@ The services page appears in a single column on mobile and tablet devices. This 
 
 All images in the Gallery appear in a single column on mobile devices. On tablet/larger screens, this changes to three columns with space around the outside, giving the users a better experience on the gallery page.
 
-#### Booking Page
+### Booking Page
 
 <details><summary>Booking Page in Mobile view</summary>
 <img src="assets/images/mobile-booking.PNG" alt="A screenshot of the booking page in mobile view">
@@ -403,9 +437,9 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 | Form Phone Contact Field | Field will only accept number inputs | Tried typing letters into the form Phone Contact input | Field only accepts numbers | Pass |
 | Social Media Links | Each social media link takes the user to the website in a seperate tab | Clicked each social media link on each page | All social media links went to the correct website from every page. All links opened in a new tab | Pass |
 
-## Bugs
+## Issues/Bugs
 
-### Solved Bugs
+### Solved Issues
 
 | Issue | Details | What Was Done | Fixed? |
 | --- | --- | --- | --- |
