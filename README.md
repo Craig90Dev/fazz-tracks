@@ -198,6 +198,10 @@ On mobile devies, the three content boxes appear in a single column showing each
 <img src="assets/images/readme-images/screenshots/mobile-services.PNG" alt="A screenshot of the services page in mobile view">
 </details>
 
+<details><summary>Services Page in Tablet view</summary>
+<img src="assets/images/readme-images/screenshots/tablet-services.PNG" alt="A screenshot of the services page in tablet view">
+</details>
+
 <details><summary>Services Page in Desktop view</summary>
 <img src="assets/images/readme-images/screenshots/desktop-services.PNG" alt="A screenshot of the services page in desktop view">
 </details>
@@ -214,6 +218,10 @@ The services page appears in a single column on mobile and tablet devices. This 
 
 <details><summary>Gallery Page in Tablet view</summary>
 <img src="assets/images/readme-images/screenshots/tablet-gallery.PNG" alt="A screenshot of the gallery page in tablet view">
+</details>
+
+<details><summary>Gallery Page in Desktop view</summary>
+<img src="assets/images/readme-images/screenshots/desktop-gallery.PNG" alt="A screenshot of the gallery page in desktop view">
 </details>
 
 All images in the Gallery appear in a single column on mobile devices. On tablet/desktop screens, this changes to three columns with space around the outside, giving the users a better experience on the gallery page.
