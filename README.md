@@ -499,7 +499,7 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 | --- | --- | --- | --- |
 | FazzTracks Logo | The FazzTracks Logo not loading | Adjusted file path from absolute to relative | Fixed |
 | Booking Page Images | The images on the Booking page in desktop view appeared in the incorrect order with the form on the far left side | Using CSS, used the "order" function to reposition | Fixed |
-| All Images | All images in the website were to big and page loading was taking longer than neccessary | Compressed all images and replaced old ones | Fixed |
+| All Images | All images in the website were too big and page loading was taking longer than neccessary | Compressed all images and replaced old ones | Fixed |
 | Gallery Page | The images used on the Gallery page created large open spaces in desktop view | Edited and cropped Gallery page images as neccessary | Fixed |
 | Form Submit Button link | When clicking the Submit button on the Booking page, the link wasn't working | Changed the Submit button from an input to an anchor wrapped around text | Fixed |
 
