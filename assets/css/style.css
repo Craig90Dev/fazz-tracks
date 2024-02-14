@@ -1,6 +1,6 @@
 /*Google Fonts import (Poppins & Roboto Mono)*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-/* Asterisk wildscard selector to remove default settings set by browser */
+/* Asterisk wildcard selector to remove default settings set by browser */
 * {
 	padding: 0;
 	margin: 0;
@@ -342,7 +342,7 @@ footer {
 		border-radius: 25px;
 	}
 }
-/* Meadia query: Large devices (992pxs+) */
+/* Media query: Large devices (992pxs+) */
 @media screen and (min-width: 992px) {
 	#menu a:hover {
 		border-bottom: 2px solid #e7b10a;

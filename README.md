@@ -60,7 +60,7 @@ a. As a first time visitor I want to be able to easily understand the purpose of
 
 b. I want to be able to easily navigate the site without having to use the browsers back/forward buttons at any time.
 
-c. I want to be able to easily access the business social media platforms to further assess the suitablility of the business for my needs.
+c. I want to be able to easily access the business social media platforms to further assess the suitability of the business for my needs.
 
 d. I want to be able to see proof of previous customer visits through the use of a Gallery or Review page.
 
@@ -109,7 +109,7 @@ All Wireframes have been created using [Balsamiq](https://balsamiq.com/).
 <details><summary>Fazz-Tracks Full Responsive Wireframes</summary>
 
 **Desktop View:**
-<img src="assets/images/readme-images/wireframes/desktop-website-wireframe.PNG" alt="Desktop view of wesbite wireframes">
+<img src="assets/images/readme-images/wireframes/desktop-website-wireframe.PNG" alt="Desktop view of website wireframes">
 
 **Tablet View:**
 <img src="assets/images/readme-images/wireframes/tablet-view-website-wireframe.PNG" alt="Tablet view of website wireframes">
@@ -164,7 +164,7 @@ The 'Roboto Mono' font has been used for the h1 and h2 headers on the website as
 <img src="assets/images/readme-images/screenshots/desktop-header.PNG" alt="A screenshot of the header in desktop view">
 </details>
 
-On mobile devices the header appears as the "Fazz-Tracks" logo to the left with a "solid bar" icon on the right. The solid bar icon allows the user to toggle the navigation menu into view by clicking on it. On larger screens the navigation toggle icon dissapears and the navigation links appear as text. These navigation links have an underline feature showing the current page the user is on and also have a hover feature, showing the user the text acts as a link by showing an underline.
+On mobile devices the header appears as the "Fazz-Tracks" logo to the left with a "solid bar" icon on the right. The solid bar icon allows the user to toggle the navigation menu into view by clicking on it. On larger screens the navigation toggle icon disappears and the navigation links appear as text. These navigation links have an underline feature showing the current page the user is on and also have a hover feature, showing the user the text acts as a link by showing an underline.
 
 ******
 
@@ -188,7 +188,7 @@ The footer on each page contains links to various social media websites. These l
 <img src="assets/images/readme-images/screenshots/desktop-index.PNG" alt="A screenshot of the index page in desktop view">
 </details>
 
-On mobile devies, the three content boxes appear in a single column showing each content box in order, followed by three visitor reviews. On tablet screens, this view changes to show just two reviews next to each other to use the extra space, but not look too generic at the same time by having three content boxes with three review boxes below them. All three reviews are shown on larger/desktop screens and the content boxes appear next to each other, rather than below each other, to use up the extra space provided.
+On mobile devices, the three content boxes appear in a single column showing each content box in order, followed by three visitor reviews. On tablet screens, this view changes to show just two reviews next to each other to use the extra space, but not look too generic at the same time by having three content boxes with three review boxes below them. All three reviews are shown on larger/desktop screens and the content boxes appear next to each other, rather than below each other, to use up the extra space provided.
 
 ******
 
@@ -280,7 +280,7 @@ The fonts have been chosen for easy readability and the headers contain extra le
 
 ### Colours
 
-The colours throught the site have been chosen in order for the site to be light and colourful and easy to distinguish certain sections of the website without being too harsh on the eyes.
+The colours throughout the site have been chosen in order for the site to be light and colourful and easy to distinguish certain sections of the website without being too harsh on the eyes.
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
@@ -477,7 +477,7 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 | Nav Bar Toggle | Menu opens on mobile devices when already closed | Clicked the toggle icon | Nav Menu opens | Pass |
 | Nav Bar Toggle | Menu closes on mobile device when already open | Clicked on toggle icon | Nav Menu closes | Pass |
 | Active Page Indicator | An underline appears under the title of the current page | Went to each page of the website | Active underline appears under the title of the page currently open for every page | Pass |
-| Nav Menu Hover Effect | Underline appears on mouse hover over menu items | Went to each page and hovered over menu items | Underline appears under menu itmes when hovered over on each page | Pass |
+| Nav Menu Hover Effect | Underline appears on mouse hover over menu items | Went to each page and hovered over menu items | Underline appears under menu items when hovered over on each page | Pass |
 | Index Page Nav Link | Clicking the Index nav link takes the user to the Index page | Clicked on the Index page nav link on each page | Taken back to the Index page from all pages | Pass |
 | Services Page Nav Link | Clicking the Services nav link takes the user to the Index page | Clicked on the Services page nav link on each page | Taken back to the Services page from all pages | Pass |
 | Gallery Page Nav Link | Clicking the Gallery nav link takes the user to the Index page | Clicked on the Gallery page nav link on each page | Taken back to the Gallery page from all pages | Pass |
@@ -485,7 +485,7 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 | Submit Button in Form | Clicking the submit button takes the user to the Code Institute FormDump page when required form input fields are populated | Populated the required form inputs and clicked the Submit button | Taken to the Code Institute FormDump page | Pass |
 | Form Required Fields | When form input is missing, message appears telling the user the field is required | Went through all required fields, missing each one individually | Message appeared for each field telling me an input is required | Pass |
 | Form Phone Contact Field | Field will only accept number inputs | Tried typing letters into the form Phone Contact input | Field only accepts numbers | Pass |
-| Social Media Links | Each social media link takes the user to the website in a seperate tab | Clicked each social media link on each page | All social media links went to the correct website from every page. All links opened in a new tab | Pass |
+| Social Media Links | Each social media link takes the user to the website in a separate tab | Clicked each social media link on each page | All social media links went to the correct website from every page. All links opened in a new tab | Pass |
 
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
@@ -499,8 +499,8 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 | --- | --- | --- | --- |
 | FazzTracks Logo | The FazzTracks Logo not loading | Adjusted file path from absolute to relative | Fixed |
 | Booking Page Images | The images on the Booking page in desktop view appeared in the incorrect order with the form on the far left side | Using CSS, used the "order" function to reposition | Fixed |
-| All Images | All images in the website were too big and page loading was taking longer than neccessary | Compressed all images and replaced old ones | Fixed |
-| Gallery Page | The images used on the Gallery page created large open spaces in desktop view | Edited and cropped Gallery page images as neccessary | Fixed |
+| All Images | All images in the website were too big and page loading was taking longer than necessary | Compressed all images and replaced old ones | Fixed |
+| Gallery Page | The images used on the Gallery page created large open spaces in desktop view | Edited and cropped Gallery page images as necessary | Fixed |
 | Form Submit Button link | When clicking the Submit button on the Booking page, the link wasn't working | Changed the Submit button from an input to an anchor wrapped around text | Fixed |
 
 ******
@@ -523,7 +523,7 @@ No other known bugs are in this version of the website
 
 [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) - Love Running Project for the Navigation Bar toggle and drop down menu for mobile devices.
 
-[Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) - Love Running Project for Media quereys and responsivness.
+[Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) - Love Running Project for Media queries and responsiveness.
 
 [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/92a91cf7fcee4361a2af651b7827a341/) - Love Running Project for support with styling within CSS 
 
