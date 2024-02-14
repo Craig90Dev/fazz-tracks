@@ -52,7 +52,7 @@ This is the documentation for the Fazz-Tracks website. Built using HTML5 and CSS
 
 This project is designed with the aim to showcase the my skills and progression in learning the HTML5 and CSS3 coding languages through the Code Institute web development diploma course with a simple website, using my own resources and knowledge to create an example of a real world scenario for a customer requiring a website to show potential visitors their Mountain Bike Center why they should visit and what is available through them.
 
-### - User Stories
+#### - User Stories
 
 **First Time Visitor goals** -
 
@@ -120,6 +120,8 @@ All Wireframes have been created using [Balsamiq](https://balsamiq.com/).
 
 The wireframes shown here are the ideas for the initial layout of the website. Some styling has been changed since testing to allow for a better user experience and improve accessibility.
 
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
 ******
 
 ## The User Interface
@@ -136,6 +138,8 @@ I used [mycolor.space](https://mycolor.space/?hex=%2309EA69&sub=1) to research t
 
 **#e7b10a** - This colour was used for the Fazz-Tracks logo, all headers in the page content, the social media links in the footer, the submit button on the booking page and also the active class/hover underline in the menu. I decided to use this as it stood out from the #4c4b16 (green) and caught the users attention, allowing them to identify parts of the site content I wanted to stand out to the user.
 
+******
+
 #### Typography
 
 The fonts have been imported from [Google Fonts](https://fonts.google.com/).
@@ -143,6 +147,8 @@ The fonts have been imported from [Google Fonts](https://fonts.google.com/).
 The 'Poppins' font has been used for the generic content text of the website. I chose this font as it is easy to read and provides the user with a slightly different font to a generic website font. The 'sans-serif' font is used as the fallback font as a generic content font.
 
 The 'Roboto Mono' font has been used for the h1 and h2 headers on the website as it stands nice and bold against the other content and is easy to read. The 'helvetica' font is used as the fallback font as a generic heading font.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
 
 ******
 
@@ -160,9 +166,13 @@ The 'Roboto Mono' font has been used for the h1 and h2 headers on the website as
 
 On mobile devices the header appears as the "Fazz-Tracks" logo to the left with a "solid bar" icon on the right. The solid bar icon allows the user to toggle the navigation menu into view by clicking on it. On larger screens the navigation toggle icon dissapears and the navigation links appear as text. These navigation links have an underline feature showing the current page the user is on and also have a hover feature, showing the user the text acts as a link by showing an underline.
 
+******
+
 ### Footer
 
 The footer on each page contains links to various social media websites. These links open in a new tab and represent the social media accounts the business would be using in a real life scenario.
+
+******
 
 ### Index Page
 
@@ -180,6 +190,8 @@ The footer on each page contains links to various social media websites. These l
 
 On mobile devies, the three content boxes appear in a single column showing each content box in order, followed by three visitor reviews. On tablet screens, this view changes to show just two reviews next to each other to use the extra space, but not look too generic at the same time by having three content boxes with three review boxes below them. All three reviews are shown on larger/desktop screens and the content boxes appear next to each other, rather than below each other, to use up the extra space provided.
 
+******
+
 ### Services Page
 
 <details><summary>Services Page in Mobile view</summary>
@@ -192,6 +204,8 @@ On mobile devies, the three content boxes appear in a single column showing each
 
 The services page appears in a single column on mobile and tablet devices. This changes when viewed on larger/desktop screens as the content appears next to each other and two images also appear to give the user more interest.
 
+******
+
 ### Gallery Page
 
 <details><summary>Gallery Page in Mobile view</summary>
@@ -203,6 +217,8 @@ The services page appears in a single column on mobile and tablet devices. This 
 </details>
 
 All images in the Gallery appear in a single column on mobile devices. On tablet/larger screens, this changes to three columns with space around the outside, giving the users a better experience on the gallery page.
+
+******
 
 ### Booking Page
 
@@ -220,6 +236,8 @@ All images in the Gallery appear in a single column on mobile devices. On tablet
 
 On mobile devices, the booking page only consists of the booking form itself. On tablet screens this changes to the booking form on one side with an image opposite. This changes again on larger/desktop screens as an image will now appear on both sides of the booking form, giving the user more to look at.
 
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
 ******
 
 ## Future Implementations
@@ -233,6 +251,8 @@ On mobile devices, the booking page only consists of the booking form itself. On
 4. To add a page for visitors to be able to upload their own images and videos from their experiences at Fazz-Tracks and display them on the Gallery page.
 
 5. To implement the ability to view images in the Gallery as a larger image and cycle through them.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
 
 ******
 
@@ -254,13 +274,21 @@ The fonts have been chosen for easy readability and the headers contain extra le
 
 The colours throught the site have been chosen in order for the site to be light and colourful and easy to distinguish certain sections of the website without being too harsh on the eyes.
 
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
 ******
 
 ## Technologies Used
 
 ### Languages Used
 
-HTML & CSS
+**HTML** - For the layout of the website.
+
+**CSS** - For the styling of the website.
+
+**Markup** - For the ReadME.md
+
+******
 
 ### Frameworks, Programs and Libraries Used
 
@@ -294,6 +322,8 @@ HTML & CSS
 
 [**ResizePixel**](https://www.resizepixel.com/) - To compress all images used throughout the website.
 
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
 ******
 
 ## Deployment and Local Development
@@ -311,6 +341,8 @@ HTML & CSS
 5. In Source Selection, choose Main from the Select Branch drop down menu. Select Root from the Select folder drop down menu.
 
 6. Click Save. Your live GitHub site is now deployed at the URL shown.
+
+******
 
 ### Local Deployment
 
@@ -333,6 +365,8 @@ HTML & CSS
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
 
 ******
 
@@ -364,6 +398,8 @@ HTML & CSS
 <img src="assets/images/css-valid.PNG" alt="CSS Validation screenshot of Style.css">
 </details>
 
+******
+
 ### Lighthouse
 
 The Lighthouse tool in Chrome Dev Tools was used to test the performance, accessibility, best practices and search engine results ranking of the website.
@@ -386,6 +422,8 @@ The Lighthouse tool in Chrome Dev Tools was used to test the performance, access
 <img src="assets/images/booking-light-mobile.PNG" alt="Screenshot of Booking Page Lighthouse Results for mobile">
 </details>
 
+******
+
 #### Desktop Results
 
 <details><summary>Home Page</summary>
@@ -406,6 +444,8 @@ The Lighthouse tool in Chrome Dev Tools was used to test the performance, access
 
 The content sections of the Home and Services page seem to affect the performance in mobile view as they are large areas of movement when scrolling. Also, the images on the Gallery page affect the performance in both mobile and desktop view due to the fact there are multiple images trying to load at once. Images have been compressed but this may need revisiting at a later date.
 
+******
+
 ### Devices Used
 
 **Mobile**
@@ -418,6 +458,8 @@ Acer Aspire 5 A515 was used to test the desktop features of the website
 The Safari browser was used for testing on mobile.
 
 The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for testing on desktop.
+
+******
 
 ### Manual Testing
 
@@ -437,6 +479,10 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 | Form Phone Contact Field | Field will only accept number inputs | Tried typing letters into the form Phone Contact input | Field only accepts numbers | Pass |
 | Social Media Links | Each social media link takes the user to the website in a seperate tab | Clicked each social media link on each page | All social media links went to the correct website from every page. All links opened in a new tab | Pass |
 
+<sup><sub>[*Back to top*](#contents)</sup></sub>
+
+******
+
 ## Issues/Bugs
 
 ### Solved Issues
@@ -449,6 +495,8 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 | Gallery Page | The images used on the Gallery page created large open spaces in desktop view | Edited and cropped Gallery page images as neccessary | Fixed |
 | Form Submit Button link | When clicking the Submit button on the Booking page, the link wasn't working | Changed the Submit button from an input to an anchor wrapped around text | Fixed |
 
+******
+
 ### Known Bugs
 
 1. In the form on the Booking page, the Email field accepts any form of text as long as there is an "@" symbol in the text. Ideally, this would only accept recognised email accounts and may be implemented in the future.
@@ -456,6 +504,8 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 2. In the form on the Booking page, the date field currently accepts any date, whether that be in the past or many years in the future. When my knowledge improves I would like to make this field only accept dates that are one year in the future and refuse any past dates.
 
 No other known bugs are in this version of the website
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
 
 ******
 
@@ -473,9 +523,13 @@ No other known bugs are in this version of the website
 
 [stack overflow](https://stackoverflow.com/questions/17999067/how-to-force-only-numbers-in-a-input-without-javascript) - For making the contact number input allow numbers only using JS.
 
+******
+
 ### Content
 
 [ChatGPT](https://chat.openai.com/) - For general content and price list.
+
+******
 
 ### Media
 
@@ -487,6 +541,8 @@ No other known bugs are in this version of the website
 
 [Icon8](https://icons8.com/icon/V9uXXBDWkesz/cycling-mountain-bike-skin-type-3) - For the FavIcon.
 
+******
+
 ### Acknowledgements
 
 Dick Vlaanderen (Mentor) - For the advice and encouragement I have received throughout the creation of the Fazz-Tracks website.
@@ -494,3 +550,5 @@ Dick Vlaanderen (Mentor) - For the advice and encouragement I have received thro
 The Slack community - For help needed with various questions and problems I had throughout the project.
 
 Friends and Family - For helping me test the website on various devices and giving feedback throughout.
+
+<sup><sub>[*Back to top*](#contents)</sup></sub>
