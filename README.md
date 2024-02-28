@@ -260,6 +260,8 @@ On mobile devices, the booking page only consists of the booking form itself. On
 
 5. To implement the ability to view images in the Gallery as a larger image and cycle through them.
 
+6. To implement a Booking Confirmation page instead of the Code Institute Form Dump page.
+
 <sup><sub>[*Back to top*](#contents)</sup></sub>
 
 ******
@@ -450,7 +452,7 @@ The Lighthouse tool in Chrome Dev Tools was used to test the performance, access
 <img src="assets/images/readme-images/lighthouse/booking-light-desktop.PNG" alt="Screenshot of Booking Page Lighthouse Results for desktop">
 </details>
 
-The content sections of the Index and Services page seem to affect the performance in mobile view as they are large areas of movement when scrolling. Also, the images on the Gallery page affect the performance in both mobile and desktop view due to the fact there are multiple images trying to load at once. Images have been compressed but this may need revisiting at a later date.
+The content sections of the Index and Services page seem to affect the performance in mobile view as they are large areas of content when scrolling. Also, the images on the Gallery page affect the performance in both mobile and desktop view due to the fact there are multiple images trying to load at once. During testing on mobile devices the Gallery page loads almost instantaneously so I don't think it's too much of an issue. Regardless, all images on all pages have been compressed as much as possible without losing too much quality and the largest image file is 300kbs on the Gallery page. Something to consider at a later date would be to maybe use different images on the mobile version of the Gallery page in order to get a better accessibility score from Lighthouse.
 
 ******
 
@@ -501,7 +503,8 @@ The Mozilla Firefox, Google Chrome and Microsoft Edge browsers were used for tes
 | Booking Page Images | The images on the Booking page in desktop view appeared in the incorrect order with the form on the far left side | Using CSS, used the "order" function to reposition | Fixed |
 | All Images | All images in the website were too big and page loading was taking longer than necessary | Compressed all images and replaced old ones | Fixed |
 | Gallery Page | The images used on the Gallery page created large open spaces in desktop view | Edited and cropped Gallery page images as necessary | Fixed |
-| Form Submit Button link | When clicking the Submit button on the Booking page, the link wasn't working | Changed the Submit button from an input to an anchor wrapped around text | Fixed |
+| Confirmation Page Link | When clicking the Submit button on the Booking page, the link was supposed to go to a confirmation page | As a confirmation page was not necessary and I could not get the link to work I removed it completely and instead made the Submit button link to the Code Institute From Dump page | Fixed |
+
 
 ******
 
